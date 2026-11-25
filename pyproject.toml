@@ -1,0 +1,12 @@
+[project]
+name = "stockpredictor"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["polars", "pyarrow", "duckdb", "scikit-learn", "lightgbm", "pyyaml", "requests"]
+
+[project.optional-dependencies]
+# Solo si LightGBM/scikit-learn lo exigen en el borde del modelado (sin verificar). No usar en transform/ ni features/.
+pandas = ["pandas"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

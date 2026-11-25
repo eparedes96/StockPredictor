@@ -1,0 +1,15 @@
+tmp/*
+!tmp/.gitkeep
+!tmp/.gitignore
+data/raw/*
+data/interim/*
+data/features/*
+data/datasets/*
+!data/*/.gitkeep
+__pycache__/
+.venv/
+*.parquet
+data/reference/*
+!data/reference/.gitkeep
+# Registro de modelos: metadata en git, binarios fuera (decision: ver models/README.md)
+models/**/model.*

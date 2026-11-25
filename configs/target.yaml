@@ -1,0 +1,3 @@
+type: log_return_absolute      # regresion
+price_column: adjusted_close
+entry: close_t_plus_1

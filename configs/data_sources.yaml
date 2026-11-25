@@ -1,0 +1,5 @@
+# Fuentes gratuitas. Completar tras verificar limites y terminos de uso (ADR).
+prices: {provider: null}
+fundamentals_es: {provider: cnmv}
+fundamentals_us: {provider: sec_edgar}
+macro: {providers: [fred, ecb, eurostat, ine]}

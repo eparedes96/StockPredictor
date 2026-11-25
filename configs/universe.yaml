@@ -1,0 +1,8 @@
+phase: F1            # F1 = ibex35 | F2 = ibex35 + nasdaq100 | F3 = all
+markets_by_phase:
+  F1: [ibex35]
+  F2: [ibex35, nasdaq100]
+  F3: all_accessible_from_spain   # lista por definir (decision abierta)
+filters:
+  min_avg_daily_volume_eur: null  # por definir
+start_date: null                  # por definir segun fuente

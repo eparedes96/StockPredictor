@@ -1,1 +1,159 @@
-company_id,index_id,valid_from,valid_to,announcement_date,effective_date,revision_id,source,source_ref,source_date,confidence,reviewed,notes
+company_id,index_id,valid_from,valid_to,announcement_date,effective_date,revision_id,exit_revision_id,source,source_ref,source_date,confidence,reviewed,notes
+es_abertis,ibex35,1989-12-29,2018-05-09,,1989-12-29,0,109,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#inferred-from-first-deletion,2026-09-21,medium,false,Miembro inicial inferido: el PDF lo da de baja sin alta previa.
+es_acerinox,ibex35,1989-12-29,1991-07-01,,1989-12-29,0,2,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#inferred-from-first-deletion,2026-09-21,medium,false,Miembro inicial inferido: el PDF lo da de baja sin alta previa.
+es_altadis,ibex35,1989-12-29,2008-02-04,,1989-12-29,0,65,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#inferred-from-first-deletion,2026-09-21,medium,false,Miembro inicial inferido: el PDF lo da de baja sin alta previa.
+es_asland,ibex35,1989-12-29,1994-01-03,,1989-12-29,0,9,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#inferred-from-first-deletion,2026-09-21,medium,false,Miembro inicial inferido: el PDF lo da de baja sin alta previa.
+es_banco_central,ibex35,1989-12-29,1992-01-02,,1989-12-29,0,4,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#inferred-from-first-deletion,2026-09-21,medium,false,Miembro inicial inferido: el PDF lo da de baja sin alta previa.
+es_banco_hispano_americano,ibex35,1989-12-29,1992-01-02,,1989-12-29,0,4,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#inferred-from-first-deletion,2026-09-21,medium,false,Miembro inicial inferido: el PDF lo da de baja sin alta previa.
+es_banco_popular,ibex35,1989-12-29,2017-06-07,,1989-12-29,0,104,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#inferred-from-first-deletion,2026-09-21,medium,false,Miembro inicial inferido: el PDF lo da de baja sin alta previa.
+es_banesto,ibex35,1989-12-29,1998-04-02,,1989-12-29,0,20,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#inferred-from-first-deletion,2026-09-21,medium,false,Miembro inicial inferido: el PDF lo da de baja sin alta previa.
+es_bankinter,ibex35,1989-12-29,,,1989-12-29,0,,inference;es.wikipedia.org/IBEX_35;cnmv_boletin_2026_ii_cuadro4,inferred-from-2026-membership-count,2026-09-21,medium,false,"No aparece en el PDF. Wikipedia lo da como miembro desde 1992 y el CNMV lo cita en la lista inicial; la fecha 1989-12-29 es la base del índice, sin contrastar."
+es_bbva,ibex35,1989-12-29,,,1989-12-29,0,,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#inferred-from-first-deletion,2026-09-21,medium,false,Miembro inicial inferido: el PDF lo da de baja sin alta previa.
+es_cepsa,ibex35,1989-12-29,1992-07-01,,1989-12-29,0,6,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#inferred-from-first-deletion,2026-09-21,medium,false,Miembro inicial inferido: el PDF lo da de baja sin alta previa.
+es_corporacion_financiera_alba,ibex35,1989-12-29,1991-07-01,,1989-12-29,0,2,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#inferred-from-first-deletion,2026-09-21,medium,false,Miembro inicial inferido: el PDF lo da de baja sin alta previa.
+es_dragados,ibex35,1989-12-29,2003-12-15,,1989-12-29,0,46,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#inferred-from-first-deletion,2026-09-21,medium,false,Miembro inicial inferido: el PDF lo da de baja sin alta previa.
+es_endesa,ibex35,1989-12-29,2013-12-23,,1989-12-29,0,92,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#inferred-from-first-deletion,2026-09-21,medium,false,Miembro inicial inferido: el PDF lo da de baja sin alta previa.
+es_ercros,ibex35,1989-12-29,1992-01-02,,1989-12-29,0,4,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#inferred-from-first-deletion,2026-09-21,medium,false,Miembro inicial inferido: el PDF lo da de baja sin alta previa.
+es_fcc,ibex35,1989-12-29,2016-07-18,,1989-12-29,0,101,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#inferred-from-first-deletion,2026-09-21,medium,false,Miembro inicial inferido: el PDF lo da de baja sin alta previa.
+es_fecsa,ibex35,1989-12-29,1998-07-01,,1989-12-29,0,21,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#inferred-from-first-deletion,2026-09-21,medium,false,Miembro inicial inferido: el PDF lo da de baja sin alta previa.
+es_gas_natural,ibex35,1989-12-29,,,1989-12-29,0,,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#inferred-from-first-deletion,2026-09-21,medium,false,Miembro inicial inferido: el PDF lo da de baja sin alta previa.
+es_hidrola,ibex35,1989-12-29,1991-10-01,,1989-12-29,0,3,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#inferred-from-first-deletion,2026-09-21,medium,false,Miembro inicial inferido: el PDF lo da de baja sin alta previa.
+es_iberdrola,ibex35,1989-12-29,,,1989-12-29,0,,inference;es.wikipedia.org/IBEX_35;cnmv_boletin_2026_ii_cuadro4,inferred-from-2026-membership-count,2026-09-21,medium,false,"No aparece en el PDF. Wikipedia lo da como miembro desde 1992 y el CNMV lo cita en la lista inicial; la fecha 1989-12-29 es la base del índice, sin contrastar."
+es_mapfre,ibex35,1989-12-29,2000-07-03,,1989-12-29,0,27,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#inferred-from-first-deletion,2026-09-21,medium,false,Miembro inicial inferido: el PDF lo da de baja sin alta previa.
+es_portland_valderrivas,ibex35,1989-12-29,1995-07-02,,1989-12-29,0,12,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#inferred-from-first-deletion,2026-09-21,medium,false,Miembro inicial inferido: el PDF lo da de baja sin alta previa.
+es_prosegur,ibex35,1989-12-29,1991-01-02,,1989-12-29,0,1,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#inferred-from-first-deletion,2026-09-21,medium,false,Miembro inicial inferido: el PDF lo da de baja sin alta previa.
+es_repsol,ibex35,1989-12-29,,,1989-12-29,0,,inference;es.wikipedia.org/IBEX_35;cnmv_boletin_2026_ii_cuadro4,inferred-from-2026-membership-count,2026-09-21,medium,false,"No aparece en el PDF. Wikipedia lo da como miembro desde 1992 y el CNMV lo cita en la lista inicial; la fecha 1989-12-29 es la base del índice, sin contrastar."
+es_santander,ibex35,1989-12-29,,,1989-12-29,0,,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#inferred-from-first-deletion,2026-09-21,medium,false,Miembro inicial inferido: el PDF lo da de baja sin alta previa.
+es_sevillana,ibex35,1989-12-29,1999-01-04,,1989-12-29,0,22,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#inferred-from-first-deletion,2026-09-21,medium,false,Miembro inicial inferido: el PDF lo da de baja sin alta previa.
+es_telefonica,ibex35,1989-12-29,,,1989-12-29,0,,inference;es.wikipedia.org/IBEX_35;cnmv_boletin_2026_ii_cuadro4,inferred-from-2026-membership-count,2026-09-21,medium,false,"No aparece en el PDF. Wikipedia lo da como miembro desde 1992 y el CNMV lo cita en la lista inicial; la fecha 1989-12-29 es la base del índice, sin contrastar."
+es_union_fenosa,ibex35,1989-12-29,2009-04-15,,1989-12-29,0,70,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#inferred-from-first-deletion,2026-09-21,medium,false,Miembro inicial inferido: el PDF lo da de baja sin alta previa.
+es_unresolved_azu,ibex35,1989-12-29,1991-01-02,,1989-12-29,0,1,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#inferred-from-first-deletion,2026-09-21,low,false,Miembro inicial inferido: el PDF lo da de baja sin alta previa.
+es_unresolved_cri_1991,ibex35,1989-12-29,1991-07-01,,1989-12-29,0,2,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#inferred-from-first-deletion,2026-09-21,low,false,Miembro inicial inferido: el PDF lo da de baja sin alta previa.
+es_unresolved_pmd,ibex35,1989-12-29,1991-01-02,,1989-12-29,0,1,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#inferred-from-first-deletion,2026-09-21,low,false,Miembro inicial inferido: el PDF lo da de baja sin alta previa.
+es_uralita,ibex35,1989-12-29,2000-01-03,,1989-12-29,0,25,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#inferred-from-first-deletion,2026-09-21,medium,false,Miembro inicial inferido: el PDF lo da de baja sin alta previa.
+es_urbis,ibex35,1989-12-29,1993-01-04,,1989-12-29,0,7,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#inferred-from-first-deletion,2026-09-21,medium,false,Miembro inicial inferido: el PDF lo da de baja sin alta previa.
+es_vallehermoso,ibex35,1989-12-29,2001-01-02,,1989-12-29,0,29,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#inferred-from-first-deletion,2026-09-21,medium,false,Miembro inicial inferido: el PDF lo da de baja sin alta previa.
+es_viscofan,ibex35,1989-12-29,1997-01-02,,1989-12-29,0,15,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#inferred-from-first-deletion,2026-09-21,medium,false,Miembro inicial inferido: el PDF lo da de baja sin alta previa.
+es_agroman,ibex35,1991-01-02,1993-01-04,,1991-01-02,1,7,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=1,2026-09-21,high,false,""
+es_huarte,ibex35,1991-01-02,1992-07-01,,1991-01-02,1,6,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=1,2026-09-21,high,false,""
+es_unresolved_cub,ibex35,1991-01-02,1997-06-02,,1991-01-02,1,16,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=1,2026-09-21,low,false,""
+es_hidrocantabrico,ibex35,1991-07-01,2001-04-10,,1991-07-01,2,30,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=2,2026-09-21,medium,false,""
+es_metrovacesa,ibex35,1991-07-01,1997-07-01,,1991-07-01,2,17,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=2,2026-09-21,high,false,""
+es_unresolved_pmd,ibex35,1991-07-01,1991-10-01,,1991-07-01,2,3,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=2,2026-09-21,low,false,""
+es_corporacion_financiera_alba,ibex35,1991-10-01,1992-01-02,,1991-10-01,3,4,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=3,2026-09-21,high,false,""
+es_unresolved_cri_1991,ibex35,1991-10-01,1992-01-02,,1991-10-01,3,4,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=3,2026-09-21,low,false,""
+es_acerinox,ibex35,1992-01-02,2013-12-23,,1992-01-02,4,92,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=4,2026-09-21,high,false,""
+es_agbar,ibex35,1992-01-02,1992-07-01,,1992-01-02,4,6,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=4,2026-09-21,high,false,""
+es_banco_central_hispano,ibex35,1992-01-02,1999-04-19,,1992-01-02,4,23,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=4,2026-09-21,high,false,""
+es_sarrio,ibex35,1992-01-02,1993-01-04,,1992-01-02,4,7,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=4,2026-09-21,high,false,""
+es_unresolved_ext,ibex35,1992-01-02,1992-07-01,,1992-01-02,4,6,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=4,2026-09-21,low,false,""
+es_aumar,ibex35,1992-07-01,2000-07-03,,1992-07-01,6,27,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=6,2026-09-21,high,false,""
+es_corporacion_financiera_alba,ibex35,1992-07-01,1998-07-01,,1992-07-01,6,21,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=6,2026-09-21,high,false,""
+es_energia_e_industrias_aragonesas,ibex35,1992-07-01,1993-01-04,,1992-07-01,6,7,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=6,2026-09-21,medium,false,""
+es_pryca,ibex35,1992-07-01,2000-10-02,,1992-07-01,6,28,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=6,2026-09-21,high,false,""
+es_agbar,ibex35,1993-01-04,1995-01-02,,1993-01-04,7,11,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=7,2026-09-21,high,false,""
+es_cepsa,ibex35,1993-01-04,1993-07-01,,1993-01-04,7,8,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=7,2026-09-21,high,false,""
+es_huarte,ibex35,1993-01-04,1995-01-02,,1993-01-04,7,11,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=7,2026-09-21,high,false,""
+es_zardoya_otis,ibex35,1993-01-04,1994-01-03,,1993-01-04,7,9,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=7,2026-09-21,high,false,""
+es_argentaria,ibex35,1993-07-01,2000-01-31,,1993-07-01,8,26,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=8,2026-09-21,high,false,""
+es_ebro_agricolas,ibex35,1994-01-03,1994-07-01,,1994-01-03,9,10,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=9,2026-09-21,medium,false,""
+es_gesa,ibex35,1994-01-03,1995-07-02,,1994-01-03,9,12,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=9,2026-09-21,high,false,""
+es_continente,ibex35,1994-07-01,2000-10-02,,1994-07-01,10,28,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=10,2026-09-21,high,false,""
+es_cortefiel,ibex35,1995-01-02,1995-07-02,,1995-01-02,11,12,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=11,2026-09-21,high,false,""
+es_unresolved_enc_1995,ibex35,1995-01-02,1997-01-02,,1995-01-02,11,15,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=11,2026-09-21,low,false,""
+es_agbar,ibex35,1995-07-02,2001-01-02,,1995-07-02,12,29,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=12,2026-09-21,high,false,""
+es_amper,ibex35,1995-07-02,1999-07-01,,1995-07-02,12,24,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=12,2026-09-21,high,false,""
+es_asturiana_de_zinc,ibex35,1995-07-02,1996-01-02,,1995-07-02,12,13,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=12,2026-09-21,high,false,""
+es_gesa,ibex35,1996-01-02,1997-07-01,,1996-01-02,13,17,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=13,2026-09-21,high,false,""
+es_melia,ibex35,1997-01-02,2003-01-02,,1997-01-02,15,40,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=15,2026-09-21,medium,false,""
+es_unresolved_uni_1997,ibex35,1997-01-02,1997-10-01,,1997-01-02,15,18,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=15,2026-09-21,low,false,""
+es_acciona,ibex35,1997-06-02,1997-07-01,,1997-06-02,16,17,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=16,2026-09-21,high,false,""
+es_asturiana_de_zinc,ibex35,1997-07-01,1999-01-04,,1997-07-01,17,22,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=17,2026-09-21,high,false,""
+es_tubacex,ibex35,1997-07-01,1999-01-04,,1997-07-01,17,22,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=17,2026-09-21,high,false,""
+es_viscofan,ibex35,1997-07-01,2000-01-03,,1997-07-01,17,25,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=17,2026-09-21,high,false,""
+es_puleva,ibex35,1997-10-01,2000-01-03,,1997-10-01,18,25,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=18,2026-09-21,medium,false,""
+es_acs,ibex35,1998-04-02,,,1998-04-02,20,,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=20,2026-09-21,high,true,""
+es_aceralia,ibex35,1998-07-01,2002-02-09,,1998-07-01,21,36,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=21,2026-09-21,medium,false,""
+es_telepizza,ibex35,1998-07-01,2002-07-01,,1998-07-01,21,38,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=21,2026-09-21,high,false,""
+es_acciona,ibex35,1999-01-04,2015-06-22,,1999-01-04,22,95,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=22,2026-09-21,high,false,""
+es_corporacion_financiera_alba,ibex35,1999-01-04,2003-01-02,,1999-01-04,22,40,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=22,2026-09-21,high,false,""
+es_nh_hoteles,ibex35,1999-01-04,2005-07-01,,1999-01-04,22,51,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=22,2026-09-21,high,false,""
+es_radiotronica,ibex35,1999-04-19,1999-07-01,,1999-04-19,23,24,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=23,2026-09-21,high,false,""
+es_ferrovial,ibex35,1999-07-01,,,1999-07-01,24,,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=24,2026-09-21,high,true,""
+es_indra,ibex35,1999-07-01,,,1999-07-01,24,,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=24,2026-09-21,high,true,""
+es_amadeus_gtd,ibex35,2000-01-03,2005-06-28,,2000-01-03,25,50,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=25,2026-09-21,medium,false,""
+es_sogecable,ibex35,2000-01-03,2008-05-12,,2000-01-03,25,67,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=25,2026-09-21,high,false,""
+es_tpi,ibex35,2000-01-03,2006-07-25,,2000-01-03,25,56,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=25,2026-09-21,high,false,""
+es_terra_networks,ibex35,2000-01-31,2003-07-24,,2000-01-31,26,44,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=26,2026-09-21,medium,false,""
+es_redeia,ibex35,2000-07-03,2005-01-03,,2000-07-03,27,49,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=27,2026-09-21,high,false,""
+es_zeltia,ibex35,2000-07-03,2005-01-03,,2000-07-03,27,49,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=27,2026-09-21,high,false,""
+es_carrefour_espana,ibex35,2000-10-02,2002-12-30,,2000-10-02,28,39,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=28,2026-09-21,medium,false,""
+es_prisa,ibex35,2000-10-02,2003-07-01,,2000-10-02,28,43,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=28,2026-09-21,high,false,""
+es_grupo_picking_pack,ibex35,2001-01-02,2001-07-02,,2001-01-02,29,33,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=29,2026-09-21,high,false,""
+es_telefonica_moviles,ibex35,2001-01-02,2006-07-25,,2001-01-02,29,56,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=29,2026-09-21,high,false,""
+es_gamesa,ibex35,2001-04-24,2013-01-02,,2001-04-24,31,88,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=31,2026-09-21,high,false,""
+es_inditex,ibex35,2001-07-02,,,2001-07-02,33,,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=33,2026-09-21,high,true,""
+es_arcelor,ibex35,2002-02-19,2006-07-06,,2002-02-19,37,55,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=37,2026-09-21,high,false,""
+es_iberia,ibex35,2002-07-01,2011-01-21,,2002-07-01,38,78,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=38,2026-09-21,high,false,""
+es_metrovacesa,ibex35,2003-01-02,2007-07-02,,2003-01-02,40,63,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=40,2026-09-21,high,false,""
+es_vallehermoso,ibex35,2003-01-02,2003-06-02,,2003-01-02,40,42,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=40,2026-09-21,medium,false,""
+es_enagas,ibex35,2003-01-10,,,2003-01-10,41,,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=41,2026-09-21,high,true,""
+es_sacyr,ibex35,2003-06-02,2004-07-01,,2003-06-02,42,48,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=42,2026-09-21,high,false,""
+es_mapfre,ibex35,2003-07-01,2006-01-02,,2003-07-01,43,53,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=43,2026-09-21,high,false,""
+es_terra_networks,ibex35,2003-08-04,2004-01-02,,2003-08-04,45,47,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=45,2026-09-21,medium,false,""
+es_banesto,ibex35,2004-01-02,2005-07-01,,2004-01-02,47,51,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=47,2026-09-21,high,false,""
+es_prisa,ibex35,2004-01-02,2007-01-02,,2004-01-02,47,59,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=47,2026-09-21,high,false,""
+es_banco_sabadell,ibex35,2004-07-01,,,2004-07-01,48,,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=48,2026-09-21,high,true,""
+es_sacyr,ibex35,2005-01-03,2016-06-21,,2005-01-03,49,100,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=49,2026-09-21,high,false,""
+es_telecinco,ibex35,2005-01-03,2020-06-22,,2005-01-03,49,114,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=49,2026-09-21,high,false,""
+es_cintra,ibex35,2005-07-01,2009-12-07,,2005-07-01,51,73,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=51,2026-09-21,high,false,""
+es_redeia,ibex35,2005-07-01,,,2005-07-01,51,,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=51,2026-09-21,high,false,""
+es_antena3,ibex35,2005-07-08,2008-01-02,,2005-07-08,52,64,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=52,2026-09-21,high,false,""
+es_nh_hoteles,ibex35,2006-01-02,2006-07-03,,2006-01-02,53,54,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=53,2026-09-21,high,false,""
+es_fadesa,ibex35,2006-07-03,2007-03-09,,2006-07-03,54,60,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=54,2026-09-21,high,false,""
+es_mapfre,ibex35,2006-07-25,,,2006-07-25,56,,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=56,2026-09-21,high,true,""
+es_banesto,ibex35,2006-08-01,2011-01-03,,2006-08-01,57,77,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=57,2026-09-21,high,false,""
+es_nh_hoteles,ibex35,2006-08-17,2008-01-02,,2006-08-17,58,64,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=58,2026-09-21,high,false,""
+es_agbar,ibex35,2007-01-02,2008-02-04,,2007-01-02,59,65,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=59,2026-09-21,high,false,""
+es_colonial,ibex35,2007-03-21,2008-04-13,,2007-03-21,61,66,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=61,2026-09-21,medium,false,""
+es_bme,ibex35,2007-07-02,2015-06-22,,2007-07-02,63,95,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=63,2026-09-21,high,false,""
+es_abengoa,ibex35,2008-01-02,2013-07-01,,2008-01-02,64,90,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=64,2026-09-21,medium,false,""
+es_grifols,ibex35,2008-01-02,,,2008-01-02,64,,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=64,2026-09-21,high,true,""
+es_caixabank,ibex35,2008-02-04,,,2008-02-04,65,,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=65,2026-09-21,high,false,""
+es_iberdrola_renovables,ibex35,2008-02-04,2011-07-11,,2008-02-04,65,82,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=65,2026-09-21,high,false,""
+es_tecnicas_reunidas,ibex35,2008-04-13,2019-06-24,,2008-04-13,66,112,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=66,2026-09-21,high,false,""
+es_ohl,ibex35,2008-07-01,2016-06-21,,2008-07-01,68,100,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=68,2026-09-21,high,false,""
+es_arcelormittal,ibex35,2009-05-05,,,2009-05-05,71,,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=71,2026-09-21,high,true,""
+es_ebro_foods,ibex35,2010-01-04,2012-05-02,,2010-01-04,74,85,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=74,2026-09-21,high,false,""
+es_amadeus_it,ibex35,2011-01-03,,,2011-01-03,77,,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=77,2026-09-21,medium,false,""
+es_iag,ibex35,2011-04-01,,,2011-04-01,79,,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=79,2026-09-21,high,true,""
+es_bankia,ibex35,2011-10-03,2013-01-02,,2011-10-03,83,88,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=83,2026-09-21,high,false,""
+es_dia,ibex35,2012-01-02,2018-12-24,,2012-01-02,84,111,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=84,2026-09-21,high,false,""
+es_viscofan,ibex35,2013-01-02,2014-12-22,,2013-01-02,88,94,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=88,2026-09-21,high,false,""
+es_jazztel,ibex35,2013-04-23,2015-06-24,,2013-04-23,89,96,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=89,2026-09-21,high,false,""
+es_ebro_foods,ibex35,2013-07-01,2014-06-23,,2013-07-01,90,93,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=90,2026-09-21,high,false,""
+es_bankia,ibex35,2013-12-23,2021-03-29,,2013-12-23,92,119,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=92,2026-09-21,high,false,""
+es_gamesa,ibex35,2013-12-23,2022-12-14,,2013-12-23,92,124,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=92,2026-09-21,high,false,""
+es_abengoa,ibex35,2014-06-23,2015-11-27,,2014-06-23,93,98,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=93,2026-09-21,medium,false,""
+es_endesa,ibex35,2014-12-22,,,2014-12-22,94,,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=94,2026-09-21,high,true,""
+es_acerinox,ibex35,2015-06-22,,,2015-06-22,95,,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=95,2026-09-21,high,true,""
+es_aena,ibex35,2015-06-22,,,2015-06-22,95,,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=95,2026-09-21,high,true,""
+es_acciona,ibex35,2015-07-20,,,2015-07-20,97,,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=97,2026-09-21,high,true,""
+es_merlin,ibex35,2015-12-21,,,2015-12-21,99,,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=99,2026-09-21,high,true,""
+es_cellnex,ibex35,2016-06-21,,,2016-06-21,100,,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=100,2026-09-21,high,true,""
+es_viscofan,ibex35,2016-06-21,2021-12-20,,2016-06-21,100,121,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=100,2026-09-21,high,false,""
+es_melia,ibex35,2016-08-08,2024-07-22,,2016-08-08,102,130,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=102,2026-09-21,high,false,""
+es_colonial,ibex35,2017-06-16,,,2017-06-16,105,,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=105,2026-09-21,high,true,""
+es_cie_automotive,ibex35,2018-06-18,2022-06-20,,2018-06-18,110,123,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=110,2026-09-21,high,false,""
+es_ence,ibex35,2018-12-24,2020-09-21,,2018-12-24,111,116,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=111,2026-09-21,medium,false,""
+es_masmovil,ibex35,2019-06-24,2020-09-14,,2019-06-24,112,115,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=112,2026-09-21,high,false,""
+es_almirall,ibex35,2020-06-22,2022-06-20,,2020-06-22,114,123,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=114,2026-09-21,high,false,""
+es_pharmamar,ibex35,2020-09-21,2022-12-19,,2020-09-21,116,125,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=116,2026-09-21,high,false,""
+es_solaria,ibex35,2020-10-19,,,2020-10-19,117,,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=117,2026-09-21,high,true,""
+es_fluidra,ibex35,2021-03-29,,,2021-03-29,119,,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=119,2026-09-21,high,true,""
+es_rovi,ibex35,2021-12-20,,,2021-12-20,121,,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=121,2026-09-21,high,true,""
+es_acciona_energia,ibex35,2022-06-20,,,2022-06-20,123,,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=123,2026-09-21,high,true,""
+es_sacyr,ibex35,2022-06-20,,,2022-06-20,123,,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=123,2026-09-21,high,true,""
+es_logista,ibex35,2022-12-19,,,2022-12-19,125,,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=125,2026-09-21,high,true,""
+es_unicaja,ibex35,2022-12-27,,,2022-12-27,126,,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=126,2026-09-21,medium,false,""
+es_puig,ibex35,2024-07-22,,,2024-07-22,130,,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=130,2026-09-21,medium,false,""

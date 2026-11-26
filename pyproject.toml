@@ -22,9 +22,11 @@ ui = ["streamlit"]
 pandas = ["pandas"]
 # Solo para tools/calendars/ (genera calendarios a Parquet; exchange_calendars exige pandas).
 calendars = ["exchange_calendars"]
+# Parser del PDF de composición histórica de BME (universe/bme_pdf.py); solo hace falta para regenerar los CSV.
+pdf = ["pdfplumber"]
 
 [dependency-groups]
-dev = ["pytest", "pytest-cov", "ruff", "mypy", "types-PyYAML", "types-requests", "pre-commit"]
+dev = ["pytest", "pytest-cov", "ruff", "mypy", "types-PyYAML", "types-requests", "pre-commit", "pdfplumber"]
 
 [tool.uv]
 default-groups = ["dev"]

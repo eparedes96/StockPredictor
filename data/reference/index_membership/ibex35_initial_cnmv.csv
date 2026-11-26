@@ -1,0 +1,36 @@
+index_id,cnmv_name,company_id,source,source_ref,source_date,confidence,reviewed,notes
+ibex35,Banco Bilbao Vizcaya (BBV),es_bbva,cnmv_boletin_2026_ii_cuadro4,"cnmv.es/DocPortal/Benchmark/Articulo_Ibex_ES.pdf, Cuadro 4 (fuente BME 2026a)",2026-11-26,medium,false,
+ibex35,Banco Santander,es_santander,cnmv_boletin_2026_ii_cuadro4,"cnmv.es/DocPortal/Benchmark/Articulo_Ibex_ES.pdf, Cuadro 4 (fuente BME 2026a)",2026-11-26,medium,false,
+ibex35,Banco Central,es_banco_central,cnmv_boletin_2026_ii_cuadro4,"cnmv.es/DocPortal/Benchmark/Articulo_Ibex_ES.pdf, Cuadro 4 (fuente BME 2026a)",2026-11-26,medium,false,
+ibex35,Banco Hispano Americano,es_banco_hispano_americano,cnmv_boletin_2026_ii_cuadro4,"cnmv.es/DocPortal/Benchmark/Articulo_Ibex_ES.pdf, Cuadro 4 (fuente BME 2026a)",2026-11-26,medium,false,
+ibex35,Banesto,es_banesto,cnmv_boletin_2026_ii_cuadro4,"cnmv.es/DocPortal/Benchmark/Articulo_Ibex_ES.pdf, Cuadro 4 (fuente BME 2026a)",2026-11-26,medium,false,
+ibex35,Banco Popular Español,es_banco_popular,cnmv_boletin_2026_ii_cuadro4,"cnmv.es/DocPortal/Benchmark/Articulo_Ibex_ES.pdf, Cuadro 4 (fuente BME 2026a)",2026-11-26,medium,false,
+ibex35,Banco Exterior de España (BEX),,cnmv_boletin_2026_ii_cuadro4,"cnmv.es/DocPortal/Benchmark/Articulo_Ibex_ES.pdf, Cuadro 4 (fuente BME 2026a)",2026-11-26,low,false,Sin código BME identificado (EXT sin resolver).
+ibex35,Bankinter,es_bankinter,cnmv_boletin_2026_ii_cuadro4,"cnmv.es/DocPortal/Benchmark/Articulo_Ibex_ES.pdf, Cuadro 4 (fuente BME 2026a)",2026-11-26,medium,false,
+ibex35,Banco Zaragozano,,cnmv_boletin_2026_ii_cuadro4,"cnmv.es/DocPortal/Benchmark/Articulo_Ibex_ES.pdf, Cuadro 4 (fuente BME 2026a)",2026-11-26,low,false,No aparece en el PDF.
+ibex35,Corporación Bancaria Española (Argentaria),es_argentaria,cnmv_boletin_2026_ii_cuadro4,"cnmv.es/DocPortal/Benchmark/Articulo_Ibex_ES.pdf, Cuadro 4 (fuente BME 2026a)",2026-11-26,medium,false,
+ibex35,Iberduero,,cnmv_boletin_2026_ii_cuadro4,"cnmv.es/DocPortal/Benchmark/Articulo_Ibex_ES.pdf, Cuadro 4 (fuente BME 2026a)",2026-11-26,low,false,El PDF no menciona a Iberduero ni a Iberdrola; IBE se infiere por recuento.
+ibex35,Hidroeléctrica Española (Hidrola),es_hidrola,cnmv_boletin_2026_ii_cuadro4,"cnmv.es/DocPortal/Benchmark/Articulo_Ibex_ES.pdf, Cuadro 4 (fuente BME 2026a)",2026-11-26,medium,false,
+ibex35,Endesa,es_endesa,cnmv_boletin_2026_ii_cuadro4,"cnmv.es/DocPortal/Benchmark/Articulo_Ibex_ES.pdf, Cuadro 4 (fuente BME 2026a)",2026-11-26,medium,false,
+ibex35,Repsol,es_repsol,cnmv_boletin_2026_ii_cuadro4,"cnmv.es/DocPortal/Benchmark/Articulo_Ibex_ES.pdf, Cuadro 4 (fuente BME 2026a)",2026-11-26,medium,false,
+ibex35,Catalana del Gas,es_gas_natural,cnmv_boletin_2026_ii_cuadro4,"cnmv.es/DocPortal/Benchmark/Articulo_Ibex_ES.pdf, Cuadro 4 (fuente BME 2026a)",2026-11-26,medium,false,CNMV: evolucionó a Gas Natural.
+ibex35,Fuerzas Eléctricas de Cataluña (FECSA),es_fecsa,cnmv_boletin_2026_ii_cuadro4,"cnmv.es/DocPortal/Benchmark/Articulo_Ibex_ES.pdf, Cuadro 4 (fuente BME 2026a)",2026-11-26,medium,false,
+ibex35,Sevillana de Electricidad,es_sevillana,cnmv_boletin_2026_ii_cuadro4,"cnmv.es/DocPortal/Benchmark/Articulo_Ibex_ES.pdf, Cuadro 4 (fuente BME 2026a)",2026-11-26,medium,false,
+ibex35,Hidroeléctrica del Cantábrico (Hidrocantábrico),es_hidrocantabrico,cnmv_boletin_2026_ii_cuadro4,"cnmv.es/DocPortal/Benchmark/Articulo_Ibex_ES.pdf, Cuadro 4 (fuente BME 2026a)",2026-11-26,medium,false,
+ibex35,Dragados y Construcciones,es_dragados,cnmv_boletin_2026_ii_cuadro4,"cnmv.es/DocPortal/Benchmark/Articulo_Ibex_ES.pdf, Cuadro 4 (fuente BME 2026a)",2026-11-26,medium,false,
+ibex35,Cubiertas y Mzov,,cnmv_boletin_2026_ii_cuadro4,"cnmv.es/DocPortal/Benchmark/Articulo_Ibex_ES.pdf, Cuadro 4 (fuente BME 2026a)",2026-11-26,low,false,Sin código BME identificado (CUB sin resolver).
+ibex35,Huarte,es_huarte,cnmv_boletin_2026_ii_cuadro4,"cnmv.es/DocPortal/Benchmark/Articulo_Ibex_ES.pdf, Cuadro 4 (fuente BME 2026a)",2026-11-26,medium,false,
+ibex35,Portland Valderrivas,es_portland_valderrivas,cnmv_boletin_2026_ii_cuadro4,"cnmv.es/DocPortal/Benchmark/Articulo_Ibex_ES.pdf, Cuadro 4 (fuente BME 2026a)",2026-11-26,medium,false,
+ibex35,Asland,es_asland,cnmv_boletin_2026_ii_cuadro4,"cnmv.es/DocPortal/Benchmark/Articulo_Ibex_ES.pdf, Cuadro 4 (fuente BME 2026a)",2026-11-26,medium,false,
+ibex35,Autopistas del Mare Nostrum (AUMAR),es_aumar,cnmv_boletin_2026_ii_cuadro4,"cnmv.es/DocPortal/Benchmark/Articulo_Ibex_ES.pdf, Cuadro 4 (fuente BME 2026a)",2026-11-26,medium,false,
+ibex35,Aurea Concesiones de Infraestructuras,,cnmv_boletin_2026_ii_cuadro4,"cnmv.es/DocPortal/Benchmark/Articulo_Ibex_ES.pdf, Cuadro 4 (fuente BME 2026a)",2026-11-26,low,false,No aparece en el PDF.
+ibex35,Telefónica,es_telefonica,cnmv_boletin_2026_ii_cuadro4,"cnmv.es/DocPortal/Benchmark/Articulo_Ibex_ES.pdf, Cuadro 4 (fuente BME 2026a)",2026-11-26,medium,false,
+ibex35,Telefónica-Acciones Públicas,,cnmv_boletin_2026_ii_cuadro4,"cnmv.es/DocPortal/Benchmark/Articulo_Ibex_ES.pdf, Cuadro 4 (fuente BME 2026a)",2026-11-26,low,false,No aparece en el PDF (una sola entrada TEF).
+ibex35,Tabacalera,es_altadis,cnmv_boletin_2026_ii_cuadro4,"cnmv.es/DocPortal/Benchmark/Articulo_Ibex_ES.pdf, Cuadro 4 (fuente BME 2026a)",2026-11-26,medium,false,Tabacalera pasa a Altadis; company_id es_altadis (continuidad sin verificar).
+ibex35,Acerinox,es_acerinox,cnmv_boletin_2026_ii_cuadro4,"cnmv.es/DocPortal/Benchmark/Articulo_Ibex_ES.pdf, Cuadro 4 (fuente BME 2026a)",2026-11-26,medium,false,
+ibex35,Mapfre,es_mapfre,cnmv_boletin_2026_ii_cuadro4,"cnmv.es/DocPortal/Benchmark/Articulo_Ibex_ES.pdf, Cuadro 4 (fuente BME 2026a)",2026-11-26,medium,false,
+ibex35,Cristalería Española,,cnmv_boletin_2026_ii_cuadro4,"cnmv.es/DocPortal/Benchmark/Articulo_Ibex_ES.pdf, Cuadro 4 (fuente BME 2026a)",2026-11-26,low,false,CRI (1991) sin verificar: Wikipedia lo etiqueta con el año de Criteria.
+ibex35,Asturiana del Zinc,es_asturiana_de_zinc,cnmv_boletin_2026_ii_cuadro4,"cnmv.es/DocPortal/Benchmark/Articulo_Ibex_ES.pdf, Cuadro 4 (fuente BME 2026a)",2026-11-26,medium,false,
+ibex35,Saras Energía,,cnmv_boletin_2026_ii_cuadro4,"cnmv.es/DocPortal/Benchmark/Articulo_Ibex_ES.pdf, Cuadro 4 (fuente BME 2026a)",2026-11-26,low,false,Sin código BME identificado.
+ibex35,Española del Zinc,,cnmv_boletin_2026_ii_cuadro4,"cnmv.es/DocPortal/Benchmark/Articulo_Ibex_ES.pdf, Cuadro 4 (fuente BME 2026a)",2026-11-26,low,false,Sin código BME identificado.
+ibex35,Uralita,es_uralita,cnmv_boletin_2026_ii_cuadro4,"cnmv.es/DocPortal/Benchmark/Articulo_Ibex_ES.pdf, Cuadro 4 (fuente BME 2026a)",2026-11-26,medium,false,

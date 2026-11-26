@@ -537,7 +537,28 @@ def render_report(res: Results) -> str:
         "ticker en Yahoo (34 de 83 tickers dan 404, en su mayoría empresas ya desaparecidas) o "
         "sin precio en t, entrada o salida.",
         "",
-        "## 8. Lectura y limitaciones",
+        "## 8. Go/no-go 1: opciones (ADR 0027)",
+        'Con el MDE medido (sección 1) el IBEX solo con precios es "no concluyente por diseño" '
+        "a h90 y a h365. Decide el coordinador; las horas las fija Enrique en este "
+        "primer go/no-go.",
+        "",
+        "- **Opción A: ampliar N_eff antes de seguir.** Integrar las deslistadas de Bolsamanía y "
+        "el "
+        "periodo 1993-1999 (más nombres y fechas con precio), o añadir mercados. Cuidado: más "
+        "nombres del mismo mercado comparten ciclo y apenas bajan el MDE; solo más fechas "
+        "independientes o mercados con ciclo distinto ayudan. A h90 harían falta unas 5 veces más "
+        "observaciones independientes para llegar a 0,05; a h365, unas 23 veces (sección 1). "
+        "Coste: trabajo manual de datos no presupuestado y sin garantía de bajar el MDE a ≤ 0,05.",
+        "- **Opción B: pasar al corte vertical aceptando un resultado no concluyente.** "
+        "Se construye el pipeline de punta a punta (IBEX, precios, técnicas, h90, Ridge, "
+        "baselines transversales) como validación técnica, sin esperar detectar un RankIC de 0,05. "
+        "Coste: el informe del corte vertical no podrá afirmar ni descartar señal; el valor es "
+        "el pipeline y las predicciones archivadas hacia delante.",
+        "",
+        "Este informe no recomienda una opción: ambas son compatibles con la regla del ADR 0027 "
+        "(el IBEX pasa a universo de validación técnica si el MDE sigue > 0,05).",
+        "",
+        "## 9. Lectura y limitaciones",
         f"- Todo es {LABEL_SURVIVORSHIP}: las empresas que salieron del IBEX y Yahoo no cotiza "
         "no entran. Eso reduce los nombres por fecha, puede sesgar el nivel del RankIC (más en "
         "momentum y reversión) y no se corrige con este informe; Bolsamanía se integrará después.",

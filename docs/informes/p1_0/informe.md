@@ -1,5 +1,5 @@
 # Informe P1-0: potencia del IBEX solo con precios
-**Resultados con sesgo de supervivencia (sin deslistadas).** Precios: Yahoo `adj_close`, instantánea `2026-11-26` (sha256 `d7e2fb40aee2…`). Datos desde 2000-01-03 hasta 2026-11-26. Commit: `9beb478ad0afa14e079bee80016095d7430f71ff`. Generado con `stockpredictor report-p1-0` (parámetros, versiones y semilla en `run.json`).
+**Resultados con sesgo de supervivencia (sin deslistadas).** Precios: Yahoo `adj_close`, instantánea `2026-11-26` (sha256 `d7e2fb40aee2…`). Datos desde 2000-01-03 hasta 2026-11-26. Commit: `7c80734868423f538d6a35ceb66be00715997422`. Generado con `stockpredictor report-p1-0` (parámetros, versiones y semilla en `run.json`).
 
 ## 1. Resultado por horizonte
 Efecto de interés: RankIC medio de 0,05 (ADR 0019). Train mínimo principal: 8 años. MDE con α = 0,05 bilateral y potencia 0,80, t de Student no central; cifra titular = mediana de los tres baselines. La etiqueta es "detectable" si MDE ≤ efecto y "no concluyente por diseño" si no.
@@ -114,7 +114,15 @@ Correlación media por pares entre nombres sobre fechas no solapadas (≥ 10 fec
 
 (Cobertura de h90; las demás en `cobertura_por_anio.csv`.) Miembros sin target: sin ticker en Yahoo (34 de 83 tickers dan 404, en su mayoría empresas ya desaparecidas) o sin precio en t, entrada o salida.
 
-## 8. Lectura y limitaciones
+## 8. Go/no-go 1: opciones (ADR 0027)
+Con el MDE medido (sección 1) el IBEX solo con precios es "no concluyente por diseño" a h90 y a h365. Decide el coordinador; las horas las fija Enrique en este primer go/no-go.
+
+- **Opción A: ampliar N_eff antes de seguir.** Integrar las deslistadas de Bolsamanía y el periodo 1993-1999 (más nombres y fechas con precio), o añadir mercados. Cuidado: más nombres del mismo mercado comparten ciclo y apenas bajan el MDE; solo más fechas independientes o mercados con ciclo distinto ayudan. A h90 harían falta unas 5 veces más observaciones independientes para llegar a 0,05; a h365, unas 23 veces (sección 1). Coste: trabajo manual de datos no presupuestado y sin garantía de bajar el MDE a ≤ 0,05.
+- **Opción B: pasar al corte vertical aceptando un resultado no concluyente.** Se construye el pipeline de punta a punta (IBEX, precios, técnicas, h90, Ridge, baselines transversales) como validación técnica, sin esperar detectar un RankIC de 0,05. Coste: el informe del corte vertical no podrá afirmar ni descartar señal; el valor es el pipeline y las predicciones archivadas hacia delante.
+
+Este informe no recomienda una opción: ambas son compatibles con la regla del ADR 0027 (el IBEX pasa a universo de validación técnica si el MDE sigue > 0,05).
+
+## 9. Lectura y limitaciones
 - Todo es con sesgo de supervivencia (sin deslistadas): las empresas que salieron del IBEX y Yahoo no cotiza no entran. Eso reduce los nombres por fecha, puede sesgar el nivel del RankIC (más en momentum y reversión) y no se corrige con este informe; Bolsamanía se integrará después.
 - El MDE usa la σ del RankIC medida en las fechas fuera de muestra con estos tres baselines. Un modelo con otra σ tendría otro MDE; es una cifra de diseño, no una garantía.
 - El bloque final reservado (ADR 0021) no entra en ninguna cifra de retornos.

@@ -32,7 +32,7 @@
     "n_perm": 1000,
     "seed": 20261126
   },
-  "commit": "9beb478ad0afa14e079bee80016095d7430f71ff",
+  "commit": "7c80734868423f538d6a35ceb66be00715997422",
   "versions": {
     "polars": "2.2.0",
     "numpy": "2.5.5",

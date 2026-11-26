@@ -1,5 +1,5 @@
 # Umbrales de aceptacion y tolerancias de identidades contables.
-# Se proponen tras el informe de cobertura de P1 y se fijan antes de la primera ejecucion real (ADR 0014).
+# Se proponen tras el informe de cobertura de P1 y se fijan antes de la primera ejecucion real (ADR 0020).
 acceptance_thresholds: null
 accounting_identity_tolerance: null
 not_applicable_rules: {}        # tipo de emisor x variable

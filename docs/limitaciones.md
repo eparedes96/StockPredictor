@@ -18,7 +18,7 @@ Lo marcado "no verificado" no se ha comprobado. Los datos de proveedores de abaj
 - **Precios de toda la vida de la cotización:** se descargan completos, no solo la etapa en el índice. Las tablas manuales (mapeo de códigos de BME, `exit_events`, revisión de saltos) son trabajo manual aún sin estimar en horas: 137 revisiones y cambios de código indistinguibles de salidas reales.
 - **Varias clases de acciones:** provisional la más líquida (mediana del valor negociado de 60 sesiones, point-in-time); la otra queda fuera del panel transversal. Peseta/euro: solo importes de liquidez, a 166,386; los retornos no cambian.
 - **Retenciones sobre dividendos:** sin decidir.
-- **Retraso conservador de `available_at`:** se calibra con la distribución real y es global, no por fold (ADR 0014). Los parámetros estructurales se calibran con datos anteriores al test final.
+- **Retraso conservador de `available_at`:** se calibra con la distribución real y es global, no por fold (ADR 0020). Los parámetros estructurales se calibran con datos anteriores al test final.
 - **Licencias y términos de uso:** no se registran por proveedor. El proyecto es de uso propio (ADR 0010); si deja de serlo hay que revisar cada fuente.
 
 ## Modelado

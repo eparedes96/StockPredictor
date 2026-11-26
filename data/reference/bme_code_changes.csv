@@ -1,0 +1,15 @@
+company_id,old_code,new_code,effective_date,revision_id,change_type,flagged_in_pdf,source,source_ref,source_date,confidence,reviewed,notes
+es_abertis,ACE,ABE,2003-06-02,42,merger_successor,false,knowledge_unverified,bme_composicion_ibex35.pdf#rev=42,2026-11-26,medium,false,"No marcado en el PDF; identificado por conocimiento previo, sin verificar."
+es_altadis,TAB,ALT,2000-01-03,25,rename,false,knowledge_unverified,bme_composicion_ibex35.pdf#rev=25,2026-11-26,medium,false,"No marcado en el PDF; identificado por conocimiento previo, sin verificar."
+es_bbva,BBV,BBVA,2000-01-31,26,merger_successor,false,knowledge_unverified,bme_composicion_ibex35.pdf#rev=26,2026-11-26,high,false,"No marcado en el PDF; identificado por conocimiento previo, sin verificar."
+es_santander,SAN,SCH,1999-04-19,23,merger_successor,false,knowledge_unverified,bme_composicion_ibex35.pdf#rev=23,2026-11-26,high,false,"No marcado en el PDF; identificado por conocimiento previo, sin verificar."
+es_santander,SCH,SAN,2001-11-01,34,rename,false,knowledge_unverified,bme_composicion_ibex35.pdf#rev=34,2026-11-26,high,false,"No marcado en el PDF; identificado por conocimiento previo, sin verificar."
+es_fcc,FOC,FCC,1992-03-10,5,merger_successor,false,knowledge_unverified,bme_composicion_ibex35.pdf#rev=5,2026-11-26,medium,false,"No marcado en el PDF; identificado por conocimiento previo, sin verificar."
+es_colonial,CAR,COL,2007-05-10,62,rename,true,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=62,2026-11-26,medium,false,Cambio marcado en naranja en el PDF.
+es_ebro_foods,EVA,EBRO,2010-07-26,76,rename,true,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=76,2026-11-26,high,false,Cambio marcado en naranja en el PDF.
+es_caixabank,CRI,CABK,2011-07-01,80,rename,true,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=80,2026-11-26,high,false,Cambio marcado en naranja en el PDF.
+es_abengoa,ABG,ABG.P,2012-10-26,87,share_class,false,knowledge_unverified,bme_composicion_ibex35.pdf#rev=87,2026-11-26,high,false,"No marcado en el PDF; identificado por conocimiento previo, sin verificar."
+es_sacyr,SYV,SCYR,2013-10-01,91,rename,true,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=91,2026-11-26,high,false,Cambio marcado en naranja en el PDF.
+es_gamesa,GAM,SGRE,2017-07-24,106,merger_successor,true,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=106,2026-11-26,high,false,Cambio marcado en naranja en el PDF.
+es_gas_natural,GAS,NTGY,2018-07-02,108,rename,true,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=108,2026-11-26,high,false,Cambio marcado en naranja en el PDF.
+es_redeia,REE,RED,2022-06-13,122,rename,true,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf#rev=122,2026-11-26,high,false,Cambio marcado en naranja en el PDF.

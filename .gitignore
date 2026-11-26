@@ -1,0 +1,33 @@
+tmp/*
+!tmp/.gitkeep
+!tmp/.gitignore
+data/raw/*
+data/interim/*
+data/features/*
+data/datasets/*
+!data/*/.gitkeep
+__pycache__/
+.venv/
+*.parquet
+data/reference/*
+!data/reference/.gitkeep
+# Registro de modelos: metadata en git, binarios fuera (decision: ver models/README.md)
+models/**/model.*
+
+# Entorno y secretos
+.env
+.env.*
+!.env.example
+# Herramientas y artefactos
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+.DS_Store
+*.duckdb
+*.duckdb.wal

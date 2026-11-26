@@ -1,0 +1,3 @@
+winsorize_pct: [1, 99]          # ajustar solo con train
+null_policy: {}                 # por variable
+sector_min_size: null           # minimo para z-score por sector (por definir)

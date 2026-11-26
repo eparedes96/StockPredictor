@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stockpredictor"
+version = "0.1.0"
+description = "Pipeline para predecir el retorno absoluto de acciones a N días con datos gratuitos."
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+license = "AGPL-3.0-or-later"
+# Núcleo ligero: lo mínimo para extraer, transformar, entrenar e inferir por terminal.
+dependencies = ["polars", "pyarrow", "duckdb", "scikit-learn", "lightgbm", "pyyaml", "requests"]
+
+[project.scripts]
+stockpredictor = "stockpredictor.cli:main"
+
+[project.optional-dependencies]
+# Interfaz web (no entra en el núcleo para mantener la instalación ligera).
+ui = ["streamlit"]
+# Solo si LightGBM/scikit-learn lo exigen en el borde del modelado (sin verificar). No usar en transform/ ni features/.
+pandas = ["pandas"]
+
+[dependency-groups]
+dev = ["pytest", "pytest-cov", "ruff", "mypy", "types-PyYAML", "types-requests", "pre-commit"]
+
+[tool.uv]
+default-groups = ["dev"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --strict-markers"
+markers = [
+    "leakage: tests anti look-ahead / fugas train-test",
+    "network: requieren red; excluidos de CI por defecto",
+]
+
+[tool.ruff]
+line-length = 100
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "TID"]
+# transform/ y features/ no deben depender de pandas (CLAUDE.md §4).
+[tool.ruff.lint.flake8-tidy-imports.banned-api]
+"pandas".msg = "pandas solo en el borde del modelado, nunca en transform/ ni features/."
+
+[tool.ruff.lint.per-file-ignores]
+"src/stockpredictor/training/*" = ["TID251"]
+"src/stockpredictor/evaluation/*" = ["TID251"]
+"tests/*" = ["TID251"]
+
+[tool.mypy]
+python_version = "3.11"
+files = ["src"]
+ignore_missing_imports = true

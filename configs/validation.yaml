@@ -1,0 +1,4 @@
+scheme: walk_forward
+window: expanding              # expanding | rolling
+embargo_days: horizon          # >= N
+purge: true

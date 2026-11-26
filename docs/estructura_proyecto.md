@@ -23,7 +23,7 @@ stockpredictor/
 │   └── models/                  # Un YAML por algoritmo (ridge, lgbm, xgb, catboost)
 ├── data/                        # Fuera de git (solo .gitkeep)
 │   ├── raw/                     # Instantáneas inmutables, por proveedor y fecha, con manifiesto
-│   ├── reference/               # index_membership/, universe_membership, exit_events, tasas legales (con proveedor y fecha)
+│   ├── reference/               # Tablas manuales en CSV versionados con fuente por fila (única parte de data/ en git): bme_code_map, index_membership/{indice}, exit_events, price_jump_review, statutory_tax_rates, taxonomy_concept_map; ver data/reference/README.md
 │   ├── interim/                 # Limpio, tipado, bitemporal; _quarantine/ y _reports/
 │   ├── features/                # Panel por (security_id, sesión) con features, regenerable
 │   ├── datasets/                # {universe_id}/h{N}/v{hash}/ versionados
@@ -85,8 +85,8 @@ stockpredictor/
 │       ├── drift.py             # Drift de features y de RankIC rodante
 │       ├── retrain.py           # Disparadores y reentrenamiento programado
 │       └── promote.py           # Champion/challenger, promoción o rollback
-├── models/                      # Registro: models/{universe_id}/h{N}/v{versión}/ + CHAMPION por universo y horizonte (ver models/README.md)
-├── experiments/                 # Runs de entrenamiento y evaluación, accesos al test, promociones
+├── models/                      # Registro: models/{universe_id}/h{N}/v{versión}/ + CHAMPION por universo y horizonte (hoy models/ibex35/{h90,h365}/); ver models/README.md
+├── experiments/                 # Runs de entrenamiento y evaluación; test_access_log.csv y promotions_log.csv (ver experiments/README.md)
 ├── runs/                        # Resúmenes de ejecución de las etapas; fuera de git, purgable
 ├── notebooks/                   # Exploración; nada que el pipeline necesite
 ├── tools/calendars/             # Generación de calendarios a Parquet (usa pandas; extra `calendars`; excepción de ruff acotada)
@@ -102,8 +102,9 @@ stockpredictor/
     ├── convenciones.md          # available_at, timing, divisa, definición de N, glosario de columnas
     ├── limitaciones.md          # Limitaciones de datos conocidas (restatements, GICS histórico...)
     ├── mlops.md                 # Inferencia, disparadores, promoción y rollback
-    ├── verificaciones.md        # (a crear) resultado de cada verificación técnica pendiente
-    └── decisiones/              # ADRs, incluido pendientes.md
+    ├── verificaciones.md        # Verificaciones técnicas pendientes, una por fila
+    ├── informes/                # Informes por fase; p1_0/ = N_eff y MDE solo con precios (go/no-go 1)
+    └── decisiones/              # ADRs (README.md = índice), pendientes.md y go_no_go.md
 ```
 
 ## Propósito por bloque

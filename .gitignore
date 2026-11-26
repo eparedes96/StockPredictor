@@ -11,6 +11,11 @@ __pycache__/
 *.parquet
 data/reference/*
 !data/reference/.gitkeep
+# Tablas manuales: CSV versionados con fuente por fila (ADR 0027, P1/P2)
+!data/reference/README.md
+!data/reference/*.csv
+!data/reference/index_membership/
+!data/reference/index_membership/*.csv
 # Registro de modelos: metadata en git, binarios fuera (decision: ver models/README.md)
 models/**/model.*
 

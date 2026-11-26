@@ -127,6 +127,13 @@ def usable_from(index_id: str = "ibex35", config_path: Path = UNIVERSE_CONFIG) -
     return value if isinstance(value, dt.date) else dt.date.fromisoformat(str(value))
 
 
+def prices_from(index_id: str = "ibex35", config_path: Path = UNIVERSE_CONFIG) -> dt.date:
+    """Primera fecha con precios gratuitos (``configs/universe.yaml``); P1-0 empieza aquí."""
+    cfg = yaml.safe_load(config_path.read_text(encoding="utf8"))
+    value = cfg["index_membership"][index_id]["prices_from"]
+    return value if isinstance(value, dt.date) else dt.date.fromisoformat(str(value))
+
+
 def members_at(
     date: dt.date,
     index_id: str = "ibex35",

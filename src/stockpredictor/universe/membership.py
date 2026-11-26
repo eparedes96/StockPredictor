@@ -169,18 +169,22 @@ def build_membership_intervals(
                     "source_ref": r["source_ref"],
                     "source_date": r["source_date"],
                     "notes": r["notes"] or "",
+                    "_start_reviewed": bool(r.get("reviewed")),
                 }
             elif is_end:
                 row = open_rows.pop(cid)
                 row.update(
                     valid_to=date,
                     exit_revision_id=rev,
+                    reviewed=bool(row["_start_reviewed"]) and bool(r.get("reviewed")),
                     confidence=conf(str(row["confidence"]), r["confidence"], r["map_confidence"]),
                 )
                 out.append(row)
     for row in open_rows.values():
-        row.update(valid_to=None, exit_revision_id=None)
+        row.update(valid_to=None, exit_revision_id=None, reviewed=bool(row["_start_reviewed"]))
         out.append(row)
+    for row in out:
+        row.pop("_start_reviewed", None)
     df = pl.DataFrame(
         out,
         schema_overrides={
@@ -195,7 +199,6 @@ def build_membership_intervals(
             pl.lit(index_id).alias("index_id"),
             pl.lit(None, dtype=pl.Date).alias("announcement_date"),
             pl.col("valid_from").alias("effective_date"),
-            pl.lit(False).alias("reviewed"),
         )
         .sort(["valid_from", "company_id"])
         .select(INTERVAL_COLUMNS)

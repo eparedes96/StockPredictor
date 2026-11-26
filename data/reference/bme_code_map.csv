@@ -1,135 +1,135 @@
 bme_code,company_id,security_id,isin,company_name,valid_from,valid_to,is_code_change,previous_bme_code,source,source_ref,source_date,confidence,reviewed,notes
-A3TV,es_antena3,,,Antena 3 de Televisión,2005-07-08,2008-01-02,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-ABE,es_abertis,,,Abertis Infraestructuras,2003-06-02,2018-05-09,true,ACE,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-ABG,es_abengoa,,,Abengoa,2008-01-02,2012-10-26,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-ABG.P,es_abengoa,,,Abengoa (acciones clase B),2012-10-26,2015-11-27,true,ABG,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,Mismo emisor; otra clase de acciones (ver decisión provisional de clases en convenciones.md).
-ACE,es_abertis,,,Acesa Infraestructuras,,2003-06-02,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,medium,false,Acesa absorbe a Aurea y pasa a llamarse Abertis en 2003 (ACE→ABE).
-ACR,es_aceralia,,,Aceralia Corporación Siderúrgica,1998-07-01,2002-02-09,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,medium,false,Baja extraordinaria 2002-02-09 coherente con la fusión en Arcelor.
-ACS,es_acs,,,ACS Actividades de Construcción y Servicios,1998-04-02,,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-ACX,es_acerinox,,,Acerinox,,,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-AENA,es_aena,,,Aena,2015-06-22,,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-AGR,es_unresolved_agr,,,,1991-01-02,1993-01-04,,,unresolved,,2026-11-26,low,false,Posible Agromán; sin verificar.
-AGS,es_agbar,,,Aguas de Barcelona,1992-01-02,2008-02-04,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,medium,false,
-ALB,es_corporacion_financiera_alba,,,Corporación Financiera Alba,,2003-01-02,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,medium,false,
-ALM,es_almirall,,,Almirall,2020-06-22,2022-06-20,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-ALT,es_altadis,,,Altadis,2000-01-03,2008-02-04,true,TAB,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-AMP,es_unresolved_amp,,,,1995-07-02,1999-07-01,,,unresolved,,2026-11-26,low,false,Sin identificar.
-AMS,es_amadeus_gtd,,,Amadeus Global Travel Distribution,2000-01-03,2005-06-28,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,medium,false,Código reutilizado: 2000-2005; baja extraordinaria 2005-06-28 coherente con su exclusión de bolsa.
-AMS,es_amadeus_it,,,Amadeus IT Holding,2011-01-03,,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,Código reutilizado desde 2011.
-ANA,es_acciona,,,Acciona,1997-06-02,,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,medium,false,El episodio de 1997 (alta 02/06 y baja 01/07) es dudoso; puede ser otra empresa.
-ANE,es_acciona_energia,,,Acciona Energía,2022-06-20,,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-ARA,es_unresolved_ara,,,,1992-07-01,1993-01-04,,,unresolved,,2026-11-26,low,false,Posible Aragonesas; sin verificar.
-ARG,es_argentaria,,,Argentaria,1993-07-01,2000-01-31,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-ASL,es_unresolved_asl,,,,,1994-01-03,,,unresolved,,2026-11-26,low,false,Posible Asland; sin verificar.
-AUM,es_aumar,,,Aumar (Autopistas del Mare Nostrum),1992-07-01,2000-07-03,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,medium,false,
-AZC,es_unresolved_azc,,,,1995-07-02,1999-01-04,,,unresolved,,2026-11-26,low,false,Sin identificar.
-AZU,es_unresolved_azu,,,,,1991-01-02,,,unresolved,,2026-11-26,low,false,Sin identificar.
-BBV,es_bbva,,,Banco Bilbao Vizcaya,,2000-01-31,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-BBVA,es_bbva,,,Banco Bilbao Vizcaya Argentaria,2000-01-31,,true,BBV,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,Sucede a BBV tras absorber Argentaria (2000).
-BCH,es_banco_central_hispano,,,Banco Central Hispano,1992-01-02,1999-04-19,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,Absorbido por Santander en 1999.
-BKIA,es_bankia,,,Bankia,2011-10-03,2021-03-29,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-BKT,es_bankinter,,,Bankinter,,,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,low,false,Miembro inicial inferido por recuento; sin fuente.
-BME,es_bme,,,Bolsas y Mercados Españoles,2007-07-02,2015-06-22,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-BTO,es_banesto,,,Banco Español de Crédito (Banesto),,2011-01-03,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,medium,false,
-CABK,es_caixabank,,,CaixaBank,2011-07-01,,true,CRI,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,Sucede a Criteria CaixaCorp (CRI) en 2011.
-CAN,es_unresolved_can,,,,1991-07-01,2001-04-10,,,unresolved,,2026-11-26,low,false,Baja extraordinaria 2001-04-10; sin identificar.
-CAR,es_colonial,,,Inmobiliaria Colonial,2007-03-21,2007-05-10,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,medium,false,Fila marcada como cambio de código CAR→COL en el PDF (2007).
-CEN,es_unresolved_cen,,,,,1992-01-02,,,unresolved,,2026-11-26,low,false,Posible Banco Central; sin verificar.
-CEP,es_cepsa,,,Cepsa,,1993-07-01,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,medium,false,
-CIE,es_cie_automotive,,,CIE Automotive,2018-06-18,2022-06-20,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-CIN,es_cintra,,,Cintra,2005-07-01,2009-12-07,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-CLNX,es_cellnex,,,Cellnex Telecom,2016-06-21,,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-COL,es_colonial,,,Inmobiliaria Colonial,2007-05-10,,true,CAR,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-CRF,es_carrefour_espana,,,Centros Comerciales Carrefour,2000-10-02,2002-12-30,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,medium,false,
-CRI,es_unresolved_cri_1991,,,,,1992-01-02,,,unresolved,,2026-11-26,low,false,"Código reutilizado: 1991-1992, sin identificar."
-CRI,es_caixabank,,,Criteria CaixaCorp,2008-02-04,2011-07-01,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,Código reutilizado desde 2008; pasa a CaixaBank (CABK) en 2011.
-CTE,es_unresolved_cte,,,,1994-07-01,2000-10-02,,,unresolved,,2026-11-26,low,false,Posible Continente; sin verificar.
-CTF,es_unresolved_ctf,,,,1995-01-02,1995-07-02,,,unresolved,,2026-11-26,low,false,Sin identificar.
-CTG,es_unresolved_ctg,,,,,2001-05-01,,,unresolved,,2026-11-26,low,false,Sin identificar.
-CUB,es_unresolved_cub,,,,1991-01-02,1997-06-02,,,unresolved,,2026-11-26,low,false,Posible Cubiertas y MZOV; sin verificar.
-DIA,es_dia,,,Distribuidora Internacional de Alimentación,2012-01-02,2018-12-24,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-DRC,es_dragados,,,Dragados,,2003-12-15,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-EBA,es_unresolved_eba,,,,1994-01-03,1994-07-01,,,unresolved,,2026-11-26,low,false,Sin identificar.
-EBRO,es_ebro_foods,,,Ebro Foods,2010-07-26,2014-06-23,true,EVA,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-ECR,es_ercros,,,Ercros,,1992-01-02,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,medium,false,
-ELE,es_endesa,,,Endesa,,,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,medium,false,Baja 2013-12-23 y alta 2014-12-22 sin verificar; UNIR la cita como miembro continuo.
-ENC,es_unresolved_enc_1995,,,,1995-01-02,1997-01-02,,,unresolved,,2026-11-26,low,false,"Código reutilizado: 1995-1997, sin identificar."
-ENC,es_ence,,,Ence Energía y Celulosa,2018-12-24,2020-09-21,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,Código reutilizado desde 2018.
-ENG,es_enagas,,,Enagás,2003-01-10,,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-EVA,es_ebro_foods,,,Ebro Puleva,2010-01-04,2010-07-26,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,Cambio de código EVA→EBRO marcado en el PDF (2010).
-EXT,es_unresolved_ext,,,,1992-01-02,1992-07-01,,,unresolved,,2026-11-26,low,false,Sin identificar.
-FAD,es_fadesa,,,Fadesa,2006-07-03,2007-03-09,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-FCC,es_fcc,,,Fomento de Construcciones y Contratas,1992-03-10,2016-07-18,true,FOC,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-FDR,es_fluidra,,,Fluidra,2021-03-29,,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-FEC,es_fecsa,,,Fuerzas Eléctricas de Cataluña,,1998-07-01,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,medium,false,
-FER,es_ferrovial,,,Ferrovial,1999-07-01,,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-FOC,es_fcc,,,Fomento de Obras y Construcciones,,1992-03-10,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,medium,false,Alta de FCC extraordinaria el mismo día (1992-03-10); fusión con Construcciones y Contratas. Sin verificar si es continuidad.
-GAM,es_gamesa,,,Gamesa,2001-04-24,2017-07-24,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-GAS,es_gas_natural,,,Gas Natural,2001-05-01,2018-07-02,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-GES,es_unresolved_ges,,,,1994-01-03,1997-07-01,,,unresolved,,2026-11-26,low,false,Posible Gesa; sin verificar.
-GPP,es_grupo_picking_pack,,,Grupo Picking Pack,2001-01-02,2001-07-02,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,medium,false,
-GRF,es_grifols,,,Grifols,2008-01-02,,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-HHU,es_unresolved_hhu,,,,1991-01-02,1995-01-02,,,unresolved,,2026-11-26,low,false,Sin identificar.
-HID,es_hidrola,,,Hidroeléctrica Española,,1991-10-01,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,medium,false,Baja 1991-10-01 coherente con la fusión en Iberdrola.
-HIS,es_banco_hispano_americano,,,Banco Hispano Americano,,1992-01-02,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,medium,false,Baja 1992-01-02 coherente con la fusión en Banco Central Hispano.
-IAG,es_iag,,,International Consolidated Airlines Group,2011-04-01,,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-IBE,es_iberdrola,,,Iberdrola,,,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,low,false,Miembro inicial inferido por recuento; sin fuente.
-IBLA,es_iberia,,,Iberia Líneas Aéreas de España,2002-07-01,2011-01-21,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-IBR,es_iberdrola_renovables,,,Iberdrola Renovables,2008-02-04,2011-07-11,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-IDR,es_indra,,,Indra,1999-07-01,,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-ITX,es_inditex,,,Inditex,2001-07-02,,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-JAZ,es_jazztel,,,Jazztel,2013-04-23,2015-06-24,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-LOG,es_logista,,,Compañía de Distribución Integral Logista,2022-12-19,,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-LOR,es_unresolved_lor,,,,2002-02-19,2006-07-06,,,unresolved,,2026-11-26,low,false,Sin identificar.
-MAP,es_mapfre,,,Mapfre,,,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,medium,false,
-MAS,es_masmovil,,,MásMóvil,2019-06-24,2020-09-14,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-MEL,es_melia,,,Meliá Hotels International,2016-08-08,2024-07-22,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-MRL,es_merlin,,,Merlin Properties,2015-12-21,,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-MTS,es_arcelormittal,,,ArcelorMittal,2009-05-05,,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-MVC,es_metrovacesa,,,Metrovacesa,1991-07-01,2007-07-02,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,medium,false,
-NHH,es_nh_hoteles,,,NH Hoteles,1999-01-04,2008-01-02,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-NTGY,es_gas_natural,,,Naturgy Energy Group,2018-07-02,,true,GAS,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,Cambio de código GAS→NTGY marcado en el PDF (2018).
-OHL,es_ohl,,,Obrascón Huarte Lain,2008-07-01,2016-06-21,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-PHM,es_pharmamar,,,PharmaMar,2020-09-21,2022-12-19,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-PMD,es_unresolved_pmd,,,,,1991-10-01,,,unresolved,,2026-11-26,low,false,Sin identificar.
-POP,es_banco_popular,,,Banco Popular Español,,2017-06-07,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-PRS,es_prisa,,,Promotora de Informaciones (Prisa),2000-10-02,2007-01-02,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-PRY,es_pryca,,,Pryca,1992-07-01,2000-10-02,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,medium,false,Baja extraordinaria 2000-10-02 junto a CTE; alta de CRF (Carrefour).
-PSG,es_unresolved_psg,,,,,1991-01-02,,,unresolved,,2026-11-26,low,false,Sin identificar.
-PUIG,es_puig,,,Puig Brands,2024-07-22,,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-PUL,es_puleva,,,Puleva,1997-10-01,2000-01-03,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,medium,false,
-RAD,es_unresolved_rad,,,,1999-04-19,1999-07-01,,,unresolved,,2026-11-26,low,false,Sin identificar.
-RED,es_redeia,,,Redeia Corporación,2022-06-13,,true,REE,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,Cambio de código REE→RED marcado en el PDF (2022).
-REE,es_redeia,,,Red Eléctrica de España,2000-07-03,2022-06-13,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-REP,es_repsol,,,Repsol,,,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,low,false,Miembro inicial inferido por recuento; sin fuente.
-ROVI,es_rovi,,,Laboratorios Farmacéuticos Rovi,2021-12-20,,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-SAB,es_banco_sabadell,,,Banco Sabadell,2004-07-01,,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-SAN,es_santander,,,Banco Santander,,,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,Mismo código antes de 1999 y desde 2001; entre medias SCH.
-SAR,es_unresolved_sar,,,,1992-01-02,1993-01-04,,,unresolved,,2026-11-26,low,false,Posible Sarrió; sin verificar.
-SCH,es_santander,,,Banco Santander Central Hispano,1999-04-19,2001-11-01,true,SAN,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,Fusión Santander-BCH (1999); vuelve a SAN en 2001.
-SCYR,es_sacyr,,,Sacyr,2013-10-01,,true,SYV,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,Cambio de código SYV→SCYR marcado en el PDF (2013).
-SEV,es_sevillana,,,Sevillana de Electricidad,,1999-01-04,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,medium,false,
-SGC,es_sogecable,,,Sogecable,2000-01-03,2008-05-12,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-SGRE,es_gamesa,,,Siemens Gamesa Renewable Energy,2017-07-24,2022-12-14,true,GAM,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,Cambio de código GAM→SGRE marcado en el PDF (2017).
-SLR,es_solaria,,,Solaria Energía y Medio Ambiente,2020-10-19,,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-SOL,es_melia,,,Sol Meliá,1997-01-02,2003-01-02,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,medium,false,Mismo emisor que Meliá (MEL); sin verificar la fecha del cambio de código.
-SYV,es_sacyr,,,Sacyr Vallehermoso,2003-06-02,2013-10-01,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-TAB,es_altadis,,,Tabacalera,,2000-01-03,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,medium,false,Tabacalera pasa a Altadis (ALT) en 2000; sin verificar.
-TEF,es_telefonica,,,Telefónica,,,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,low,false,Miembro inicial inferido por recuento; sin fuente.
-TEM,es_telefonica_moviles,,,Telefónica Móviles,2001-01-02,2006-07-25,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-TL5,es_telecinco,,,Telecinco (Mediaset España),2005-01-03,2020-06-22,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-TPI,es_tpi,,,Telefónica Publicidad e Información,2000-01-03,2006-07-25,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-TPZ,es_telepizza,,,Telepizza,1998-07-01,2002-07-01,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-TRE,es_tecnicas_reunidas,,,Técnicas Reunidas,2008-04-13,2019-06-24,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-TRR,es_terra_networks,,,Terra Networks,2000-01-31,2004-01-02,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-TUB,es_unresolved_tub,,,,1997-07-01,1999-01-04,,,unresolved,,2026-11-26,low,false,Posible Tubacex o Tubos Reunidos; sin verificar.
-UNF,es_union_fenosa,,,Unión Fenosa,,2009-04-15,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-UNI,es_unresolved_uni_1997,,,,1997-01-02,1997-10-01,,,unresolved,,2026-11-26,low,false,"Código reutilizado: 1997, sin identificar."
-UNI,es_unicaja,,,Unicaja Banco,2022-12-27,,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,Código reutilizado desde 2022.
-URA,es_uralita,,,Uralita,,2000-01-03,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,medium,false,
-URB,es_unresolved_urb,,,,,1993-01-04,,,unresolved,,2026-11-26,low,false,Sin identificar.
-VAL,es_vallehermoso,,,Vallehermoso,,2003-06-02,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,medium,false,
-VDR,es_unresolved_vdr,,,,,1995-07-02,,,unresolved,,2026-11-26,low,false,Sin identificar.
-VIS,es_viscofan,,,Viscofan,,2021-12-20,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,medium,false,
-ZEL,es_zeltia,,,Zeltia,2000-07-03,2005-01-03,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,high,false,
-ZOT,es_zardoya_otis,,,Zardoya Otis,1993-01-04,1994-01-03,,,knowledge_unverified,conocimiento previo del analista; no verificado,2026-11-26,medium,false,
+A3TV,es_antena3,,"",Antena 3 TV,2005-07-08,2008-01-02,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=A3TV,2026-11-26,high,true,""
+ABE,es_abertis,,"",Abertis Infraestructuras,2003-06-02,2018-05-09,true,ACE,bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=ABE,2026-11-26,high,true,""
+ABG,es_abengoa,,"",Abengoa,2008-01-02,2012-10-26,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=ABG,2026-11-26,high,true,""
+ABG.P,es_abengoa,,"",Abengoa (acciones clase B),2012-10-26,2015-11-27,true,ABG,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf,2026-11-26,medium,false,Mismo emisor; otra clase de acciones (ver decisión provisional de clases en convenciones.md).
+ACE,es_abertis,,"",Acesa Infraestructuras,,2003-06-02,"","",bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf,2026-11-26,medium,false,Acesa absorbe a Aurea y pasa a llamarse Abertis en 2003 (ACE→ABE).
+ACR,es_aceralia,,"",Aceralia,1998-07-01,2002-02-09,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=ACR,2026-11-26,medium,false,Baja extraordinaria 2002-02-09 coherente con la fusión en Arcelor. | auto: Wikipedia da abandono en 2004; el PDF no coincide.
+ACS,es_acs,,ES0167050915,ACS,1998-04-02,,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=ACS,2026-11-26,high,true,auto: ISIN de Wikipedia (dígito de control válido; una sola fuente).
+ACX,es_acerinox,,ES0132105018,Acerinox,,,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=ACX,2026-11-26,high,true,auto: ISIN de Wikipedia (dígito de control válido; una sola fuente).
+AENA,es_aena,,ES0105046009,Aena,2015-06-22,,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=AENA,2026-11-26,high,true,auto: ISIN de Wikipedia (dígito de control válido; una sola fuente).
+AGR,es_agroman,,"",Agromán,1991-01-02,1993-01-04,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=AGR,2026-11-26,high,true,""
+AGS,es_agbar,,"",Aguas de Barcelona,1992-01-02,2008-02-04,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=AGS,2026-11-26,high,true,""
+ALB,es_corporacion_financiera_alba,,"",Corporación Financiera Alba,,2003-01-02,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=ALB,2026-11-26,high,true,""
+ALM,es_almirall,,"",Almirall,2020-06-22,2022-06-20,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=ALM,2026-11-26,high,true,""
+ALT,es_altadis,,"",Altadis,2000-01-03,2008-02-04,true,TAB,bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=ALT,2026-11-26,high,true,""
+AMP,es_amper,,"",Amper,1995-07-02,1999-07-01,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=AMP,2026-11-26,high,true,""
+AMS,es_amadeus_gtd,,"",Amadeus Global Travel Distribution,2000-01-03,2005-06-28,"","",bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf,2026-11-26,medium,false,Código reutilizado: 2000-2005; baja extraordinaria 2005-06-28 coherente con su exclusión de bolsa.
+AMS,es_amadeus_it,,"",Amadeus IT Holding,2011-01-03,,"","",bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf,2026-11-26,medium,false,Código reutilizado desde 2011.
+ANA,es_acciona,,ES0125220311,Acciona,1997-06-02,,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=ANA,2026-11-26,high,true,El episodio de 1997 (alta 02/06 y baja 01/07) es dudoso; puede ser otra empresa. | auto: ISIN de Wikipedia (dígito de control válido; una sola fuente).
+ANE,es_acciona_energia,,ES0105563003,Acciona Energía,2022-06-20,,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=ANE,2026-11-26,high,true,auto: ISIN de Wikipedia (dígito de control válido; una sola fuente).
+ARA,es_energia_e_industrias_aragonesas,,"",Energía e Industrias Aragonesas,1992-07-01,1993-01-04,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=ARA,2026-11-26,medium,false,auto: Wikipedia da abandono en 2003; el PDF no coincide.
+ARG,es_argentaria,,"",Argentaria,1993-07-01,2000-01-31,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=ARG,2026-11-26,high,true,""
+ASL,es_asland,,"",Asland,,1994-01-03,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=ASL,2026-11-26,high,true,""
+AUM,es_aumar,,"",Autopistas del Mare Nostrum,1992-07-01,2000-07-03,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=AUM,2026-11-26,high,true,""
+AZC,es_asturiana_de_zinc,,"",Asturiana de Zinc,1995-07-02,1999-01-04,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=AZC,2026-11-26,high,true,""
+AZU,es_unresolved_azu,,"","",,1991-01-02,"","",unresolved,bme_composicion_ibex35.pdf,2026-11-26,low,false,Sin identificar.
+BBV,es_bbva,,"",Banco Bilbao Vizcaya,,2000-01-31,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=BBV,2026-11-26,high,true,""
+BBVA,es_bbva,,ES0113211835,BBVA,2000-01-31,,true,BBV,bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=BBVA,2026-11-26,high,true,Sucede a BBV tras absorber Argentaria (2000). | auto: ISIN de Wikipedia (dígito de control válido; una sola fuente).
+BCH,es_banco_central_hispano,,"",Banco Central Hispano,1992-01-02,1999-04-19,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=BCH,2026-11-26,high,true,Absorbido por Santander en 1999.
+BKIA,es_bankia,,"",Bankia,2011-10-03,2021-03-29,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=BKIA,2026-11-26,high,true,""
+BKT,es_bankinter,,ES0113679I37,Bankinter,,,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=BKT,2026-11-26,high,true,Miembro inicial inferido por recuento; sin fuente. | auto: ISIN de Wikipedia (dígito de control válido; una sola fuente).
+BME,es_bme,,"",Bolsas y Mercados Españoles,2007-07-02,2015-06-22,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=BME,2026-11-26,high,true,""
+BTO,es_banesto,,"",Banesto,,2011-01-03,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=BTO,2026-11-26,high,true,""
+CABK,es_caixabank,,ES0140609019,CaixaBank,2011-07-01,,true,CRI,bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=CABK,2026-11-26,high,true,Sucede a Criteria CaixaCorp (CRI) en 2011. | auto: ISIN de Wikipedia (dígito de control válido; una sola fuente).
+CAN,es_hidrocantabrico,,"",Hidrocantábrico,1991-07-01,2001-04-10,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=CAN,2026-11-26,medium,false,auto: Wikipedia da abandono en 2002; el PDF no coincide.
+CAR,es_colonial,,"",Inmobiliaria Colonial,2007-03-21,2007-05-10,"","",bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf,2026-11-26,medium,false,Fila marcada como cambio de código CAR→COL en el PDF (2007). | auto: Wikipedia llama a CAR «Carrefour»; BME marca CAR→COL (Colonial). Sin resolver.
+CEN,es_banco_central,,"",Banco Central,,1992-01-02,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=CEN,2026-11-26,medium,false,auto: Wikipedia da abandono en 1991; el PDF no coincide.
+CEP,es_cepsa,,"",CEPSA,,1993-07-01,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=CEP,2026-11-26,high,true,""
+CIE,es_cie_automotive,,"",CIE Automotive,2018-06-18,2022-06-20,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=CIE,2026-11-26,high,true,""
+CIN,es_cintra,,"",Cintra,2005-07-01,2009-12-07,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=CIN,2026-11-26,high,true,""
+CLNX,es_cellnex,,ES0105066007,Cellnex Telecom,2016-06-21,,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=CLNX,2026-11-26,high,true,auto: ISIN de Wikipedia (dígito de control válido; una sola fuente).
+COL,es_colonial,,ES0139140174,Inmobiliaria Colonial,2007-05-10,,true,CAR,bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=COL,2026-11-26,high,true,auto: ISIN de Wikipedia (dígito de control válido; una sola fuente).
+CRF,es_carrefour_espana,,"",Centros Comerciales Carrefour,2000-10-02,2002-12-30,"","",bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf,2026-11-26,medium,false,""
+CRI,es_unresolved_cri_1991,,"","",,1992-01-02,"","",unresolved,bme_composicion_ibex35.pdf,2026-11-26,low,false,"Código reutilizado: 1991-1992, sin identificar."
+CRI,es_caixabank,,"",Criteria CaixaCorp,2008-02-04,2011-07-01,"","",bme_composicion_ibex35.pdf;bme_composicion_ibex35.pdf#code-change-flag,bme_composicion_ibex35.pdf,2026-11-26,high,true,Código reutilizado desde 2008; pasa a CaixaBank (CABK) en 2011. | auto: Verificado por la marca de cambio de código de BME y el código nuevo.
+CTE,es_continente,,"",Continente,1994-07-01,2000-10-02,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=CTE,2026-11-26,high,true,""
+CTF,es_cortefiel,,"",Cortefiel,1995-01-02,1995-07-02,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=CTF,2026-11-26,high,true,""
+CTG,es_gas_natural,,"",Catalana de Gas,,2001-05-01,"","",bme_composicion_ibex35.pdf;cnmv_boletin_2026_ii_cuadro4,"bme_composicion_ibex35.pdf;cnmv.es Boletín II/2026, Cuadro 4 (Catalana del Gas)",2026-11-26,high,true,Sin identificar. | auto: Identidad por CNMV Cuadro 4 y la sustitución CTG→GAS del PDF (rev. 32).
+CUB,es_unresolved_cub,,"","",1991-01-02,1997-06-02,"","",unresolved,bme_composicion_ibex35.pdf,2026-11-26,low,false,Posible Cubiertas y MZOV; sin verificar.
+DIA,es_dia,,"",DIA,2012-01-02,2018-12-24,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=DIA,2026-11-26,high,true,""
+DRC,es_dragados,,"",Dragados,,2003-12-15,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=DRC,2026-11-26,high,true,""
+EBA,es_ebro_agricolas,,"",Ebro Agrícolas,1994-01-03,1994-07-01,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=EBA,2026-11-26,medium,false,auto: Wikipedia da abandono en 2001; el PDF no coincide.
+EBRO,es_ebro_foods,,"",Ebro Foods,2010-07-26,2014-06-23,true,EVA,bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=EBRO,2026-11-26,high,true,""
+ECR,es_ercros,,"",Ercros,,1992-01-02,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=ECR,2026-11-26,high,true,""
+ELE,es_endesa,,ES0130670112,Endesa,,,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=ELE,2026-11-26,high,true,Baja 2013-12-23 y alta 2014-12-22 sin verificar; UNIR la cita como miembro continuo. | auto: ISIN de Wikipedia (dígito de control válido; una sola fuente).
+ENC,es_unresolved_enc_1995,,"","",1995-01-02,1997-01-02,"","",unresolved,bme_composicion_ibex35.pdf,2026-11-26,low,false,"Código reutilizado: 1995-1997, sin identificar."
+ENC,es_ence,,"",Ence Energía y Celulosa,2018-12-24,2020-09-21,"","",bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf,2026-11-26,medium,false,Código reutilizado desde 2018.
+ENG,es_enagas,,ES0130960018,Enagás,2003-01-10,,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=ENG,2026-11-26,high,true,auto: ISIN de Wikipedia (dígito de control válido; una sola fuente).
+EVA,es_ebro_foods,,"",Ebro Puleva,2010-01-04,2010-07-26,"","",bme_composicion_ibex35.pdf;bme_composicion_ibex35.pdf#code-change-flag,bme_composicion_ibex35.pdf,2026-11-26,high,true,Cambio de código EVA→EBRO marcado en el PDF (2010). | auto: Verificado por la marca de cambio de código de BME y el código nuevo.
+EXT,es_unresolved_ext,,"","",1992-01-02,1992-07-01,"","",unresolved,bme_composicion_ibex35.pdf,2026-11-26,low,false,Sin identificar.
+FAD,es_fadesa,,"",Fadesa,2006-07-03,2007-03-09,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=FAD,2026-11-26,high,true,""
+FCC,es_fcc,,"",FCC,1992-03-10,2016-07-18,true,FOC,bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=FCC,2026-11-26,high,true,""
+FDR,es_fluidra,,ES0137650018,Fluidra,2021-03-29,,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=FDR,2026-11-26,high,true,auto: ISIN de Wikipedia (dígito de control válido; una sola fuente).
+FEC,es_fecsa,,"",Fuerzas Eléctricas de Cataluña,,1998-07-01,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=FEC,2026-11-26,medium,false,auto: Wikipedia da abandono en 1999; el PDF no coincide.
+FER,es_ferrovial,,ES0118900010,Ferrovial,1999-07-01,,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=FER,2026-11-26,high,true,auto: ISIN de Wikipedia (dígito de control válido; una sola fuente).
+FOC,es_fcc,,"",Fomento de Obras y Construcciones,,1992-03-10,"","",bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf,2026-11-26,medium,false,Alta de FCC extraordinaria el mismo día (1992-03-10); fusión con Construcciones y Contratas. Sin verificar si es continuidad.
+GAM,es_gamesa,,"",Gamesa,2001-04-24,2017-07-24,"","",bme_composicion_ibex35.pdf;bme_composicion_ibex35.pdf#code-change-flag,bme_composicion_ibex35.pdf,2026-11-26,high,true,auto: Verificado por la marca de cambio de código de BME y el código nuevo.
+GAS,es_gas_natural,,"",Gas Natural,2001-05-01,2018-07-02,true,CTG,bme_composicion_ibex35.pdf;bme_composicion_ibex35.pdf#code-change-flag,bme_composicion_ibex35.pdf,2026-11-26,high,true,auto: Verificado por la marca de cambio de código de BME y el código nuevo.
+GES,es_gesa,,"",GESA,1994-01-03,1997-07-01,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=GES,2026-11-26,high,true,""
+GPP,es_grupo_picking_pack,,"",Picking Pack,2001-01-02,2001-07-02,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=GPP,2026-11-26,high,true,""
+GRF,es_grifols,,ES0171996087,Grifols,2008-01-02,,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=GRF,2026-11-26,high,true,auto: ISIN de Wikipedia (dígito de control válido; una sola fuente).
+HHU,es_huarte,,"",Huarte,1991-01-02,1995-01-02,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=HHU,2026-11-26,high,true,""
+HID,es_hidrola,,"",Hidroeléctrica Española,,1991-10-01,"","",bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf,2026-11-26,medium,false,Baja 1991-10-01 coherente con la fusión en Iberdrola.
+HIS,es_banco_hispano_americano,,"",Banco Hispano Americano,,1992-01-02,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=HIS,2026-11-26,medium,false,Baja 1992-01-02 coherente con la fusión en Banco Central Hispano. | auto: Wikipedia da abandono en 1991; el PDF no coincide.
+IAG,es_iag,,ES0177542018,International Airlines Group,2011-04-01,,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=IAG,2026-11-26,high,true,auto: ISIN de Wikipedia (dígito de control válido; una sola fuente).
+IBE,es_iberdrola,,ES0144580Y14,Iberdrola,,,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=IBE,2026-11-26,high,true,Miembro inicial inferido por recuento; sin fuente. | auto: ISIN de Wikipedia (dígito de control válido; una sola fuente).
+IBLA,es_iberia,,"",Iberia,2002-07-01,2011-01-21,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=IBLA,2026-11-26,high,true,""
+IBR,es_iberdrola_renovables,,"",Iberdrola Renovables,2008-02-04,2011-07-11,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=IBR,2026-11-26,high,true,""
+IDR,es_indra,,ES0118594417,Indra,1999-07-01,,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=IDR,2026-11-26,high,true,auto: ISIN de Wikipedia (dígito de control válido; una sola fuente).
+ITX,es_inditex,,ES0148396007,Inditex,2001-07-02,,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=ITX,2026-11-26,high,true,auto: ISIN de Wikipedia (dígito de control válido; una sola fuente).
+JAZ,es_jazztel,,"",Jazztel,2013-04-23,2015-06-24,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=JAZ,2026-11-26,high,true,""
+LOG,es_logista,,ES0105027009,Logista,2022-12-19,,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=LOG,2026-11-26,high,true,auto: ISIN de Wikipedia (dígito de control válido; una sola fuente).
+LOR,es_arcelor,,"",Arcelor,2002-02-19,2006-07-06,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=LOR,2026-11-26,high,true,""
+MAP,es_mapfre,,ES0124244E34,MAPFRE,,,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=MAP,2026-11-26,high,true,auto: ISIN de Wikipedia (dígito de control válido; una sola fuente).
+MAS,es_masmovil,,"",Grupo MásMóvil,2019-06-24,2020-09-14,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=MAS,2026-11-26,high,true,""
+MEL,es_melia,,ES0176252718,Meliá Hotels International,2016-08-08,2024-07-22,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=MEL,2026-11-26,high,true,auto: ISIN de Wikipedia (dígito de control válido; una sola fuente).
+MRL,es_merlin,,ES0105025003,Merlin Properties,2015-12-21,,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=MRL,2026-11-26,high,true,auto: ISIN de Wikipedia (dígito de control válido; una sola fuente).
+MTS,es_arcelormittal,,LU1598757687,ArcelorMittal,2009-05-05,,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=MTS,2026-11-26,high,true,auto: ISIN de Wikipedia (dígito de control válido; una sola fuente).
+MVC,es_metrovacesa,,"",Metrovacesa,1991-07-01,2007-07-02,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=MVC,2026-11-26,high,true,""
+NHH,es_nh_hoteles,,"",NH Hotel Group,1999-01-04,2008-01-02,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=NHH,2026-11-26,high,true,""
+NTGY,es_gas_natural,,ES0116870314,Naturgy,2018-07-02,,true,GAS,bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=NTGY,2026-11-26,high,true,Cambio de código GAS→NTGY marcado en el PDF (2018). | auto: ISIN de Wikipedia (dígito de control válido; una sola fuente).
+OHL,es_ohl,,"",OHL,2008-07-01,2016-06-21,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=OHL,2026-11-26,high,true,""
+PHM,es_pharmamar,,"",PharmaMar,2020-09-21,2022-12-19,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=PHM,2026-11-26,high,true,""
+PMD,es_unresolved_pmd,,"","",,1991-10-01,"","",unresolved,bme_composicion_ibex35.pdf,2026-11-26,low,false,Sin identificar.
+POP,es_banco_popular,,"",Banco Popular,,2017-06-07,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=POP,2026-11-26,high,true,""
+PRS,es_prisa,,"",Prisa,2000-10-02,2007-01-02,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=PRS,2026-11-26,high,true,""
+PRY,es_pryca,,"",Pryca,1992-07-01,2000-10-02,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=PRY,2026-11-26,high,true,Baja extraordinaria 2000-10-02 junto a CTE; alta de CRF (Carrefour).
+PSG,es_prosegur,,"",Prosegur,,1991-01-02,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=PSG,2026-11-26,high,true,""
+PUIG,es_puig,,"",Puig Brands,2024-07-22,,"","",bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf,2026-11-26,medium,false,""
+PUL,es_puleva,,"",Puleva,1997-10-01,2000-01-03,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=PUL,2026-11-26,medium,false,auto: Wikipedia da abandono en 2001; el PDF no coincide.
+RAD,es_radiotronica,,"",Radiotrónica,1999-04-19,1999-07-01,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=RAD,2026-11-26,high,true,""
+RED,es_redeia,,ES0173093024,Redeia,2022-06-13,,true,REE,bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=RED,2026-11-26,high,true,Cambio de código REE→RED marcado en el PDF (2022). | auto: ISIN de Wikipedia (dígito de control válido; una sola fuente).
+REE,es_redeia,,"",Red Eléctrica de España,2000-07-03,2022-06-13,"","",bme_composicion_ibex35.pdf;bme_composicion_ibex35.pdf#code-change-flag,bme_composicion_ibex35.pdf,2026-11-26,high,true,auto: Verificado por la marca de cambio de código de BME y el código nuevo.
+REP,es_repsol,,ES0173516115,Repsol,,,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=REP,2026-11-26,high,true,Miembro inicial inferido por recuento; sin fuente. | auto: ISIN de Wikipedia (dígito de control válido; una sola fuente).
+ROVI,es_rovi,,ES0157261019,Laboratorios Rovi,2021-12-20,,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=ROVI,2026-11-26,high,true,auto: ISIN de Wikipedia (dígito de control válido; una sola fuente).
+SAB,es_banco_sabadell,,ES0113860A34,Banco Sabadell,2004-07-01,,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=SAB,2026-11-26,high,true,auto: ISIN de Wikipedia (dígito de control válido; una sola fuente).
+SAN,es_santander,,ES0113900J37,Santander,,,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=SAN,2026-11-26,high,true,Mismo código antes de 1999 y desde 2001; entre medias SCH. | auto: ISIN de Wikipedia (dígito de control válido; una sola fuente).
+SAR,es_sarrio,,"",Sarrió,1992-01-02,1993-01-04,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=SAR,2026-11-26,high,true,""
+SCH,es_santander,,"",Banco Santander Central Hispano,1999-04-19,2001-11-01,true,SAN,bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf,2026-11-26,medium,false,Fusión Santander-BCH (1999); vuelve a SAN en 2001.
+SCYR,es_sacyr,,ES0182870214,Sacyr,2013-10-01,,true,SYV,bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=SCYR,2026-11-26,high,true,Cambio de código SYV→SCYR marcado en el PDF (2013). | auto: ISIN de Wikipedia (dígito de control válido; una sola fuente).
+SEV,es_sevillana,,"",Compañía Sevillana de Electricidad,,1999-01-04,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=SEV,2026-11-26,high,true,""
+SGC,es_sogecable,,"",Sogecable,2000-01-03,2008-05-12,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=SGC,2026-11-26,high,true,""
+SGRE,es_gamesa,,"",Siemens Gamesa Renewable Energy,2017-07-24,2022-12-14,true,GAM,bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=SGRE,2026-11-26,high,true,Cambio de código GAM→SGRE marcado en el PDF (2017).
+SLR,es_solaria,,ES0165386014,Solaria,2020-10-19,,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=SLR,2026-11-26,high,true,auto: ISIN de Wikipedia (dígito de control válido; una sola fuente).
+SOL,es_melia,,"",Sol Meliá,1997-01-02,2003-01-02,"","",bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf,2026-11-26,medium,false,Mismo emisor que Meliá (MEL); sin verificar la fecha del cambio de código.
+SYV,es_sacyr,,"",Sacyr Vallehermoso,2003-06-02,2013-10-01,"","",bme_composicion_ibex35.pdf;bme_composicion_ibex35.pdf#code-change-flag,bme_composicion_ibex35.pdf,2026-11-26,high,true,auto: Verificado por la marca de cambio de código de BME y el código nuevo.
+TAB,es_altadis,,"",Tabacalera,,2000-01-03,"","",bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf,2026-11-26,medium,false,Tabacalera pasa a Altadis (ALT) en 2000; sin verificar.
+TEF,es_telefonica,,ES0178430E18,Telefónica,,,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=TEF,2026-11-26,high,true,Miembro inicial inferido por recuento; sin fuente. | auto: ISIN de Wikipedia (dígito de control válido; una sola fuente).
+TEM,es_telefonica_moviles,,"",Telefónica Móviles,2001-01-02,2006-07-25,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=TEM,2026-11-26,high,true,""
+TL5,es_telecinco,,"",Mediaset España,2005-01-03,2020-06-22,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=TL5,2026-11-26,high,true,""
+TPI,es_tpi,,"",Telefónica Publicidad e Información,2000-01-03,2006-07-25,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=TPI,2026-11-26,high,true,""
+TPZ,es_telepizza,,"",Telepizza,1998-07-01,2002-07-01,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=TPZ,2026-11-26,high,true,""
+TRE,es_tecnicas_reunidas,,"",Técnicas Reunidas,2008-04-13,2019-06-24,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=TRE,2026-11-26,high,true,""
+TRR,es_terra_networks,,"",Terra Networks,2000-01-31,2004-01-02,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=TRR,2026-11-26,medium,false,auto: Wikipedia da abandono en 2005; el PDF no coincide.
+TUB,es_tubacex,,"",Tubacex,1997-07-01,1999-01-04,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=TUB,2026-11-26,high,true,""
+UNF,es_union_fenosa,,"",Unión Fenosa,,2009-04-15,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=UNF,2026-11-26,high,true,""
+UNI,es_unresolved_uni_1997,,"","",1997-01-02,1997-10-01,"","",unresolved,bme_composicion_ibex35.pdf,2026-11-26,low,false,"Código reutilizado: 1997, sin identificar."
+UNI,es_unicaja,,"",Unicaja Banco,2022-12-27,,"","",bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf,2026-11-26,medium,false,Código reutilizado desde 2022.
+URA,es_uralita,,"",Uralita,,2000-01-03,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=URA,2026-11-26,high,true,""
+URB,es_urbis,,"",Urbis,,1993-01-04,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=URB,2026-11-26,high,true,""
+VAL,es_vallehermoso,,"",Vallehermoso,,2003-06-02,"","",bme_composicion_ibex35.pdf,bme_composicion_ibex35.pdf,2026-11-26,medium,false,""
+VDR,es_portland_valderrivas,,"",Portland Valderrivas,,1995-07-02,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=VDR,2026-11-26,high,true,""
+VIS,es_viscofan,,"",Viscofan,,2021-12-20,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=VIS,2026-11-26,high,true,""
+ZEL,es_zeltia,,"",Zeltia,2000-07-03,2005-01-03,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=ZEL,2026-11-26,high,true,""
+ZOT,es_zardoya_otis,,"",Zardoya Otis,1993-01-04,1994-01-03,"","",bme_composicion_ibex35.pdf;es.wikipedia.org/IBEX_35,bme_composicion_ibex35.pdf;https://es.wikipedia.org/wiki/IBEX_35#ticker=ZOT,2026-11-26,high,true,""

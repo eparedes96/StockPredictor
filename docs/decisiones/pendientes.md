@@ -7,7 +7,7 @@ Actualizado el 2026-11-26 (v3). Las cerradas están en los ADR 0004 a 0030.
 - `robots.txt`: no se exige (ADR 0010).
 
 ## Abiertas, con responsable
-1. **Composición histórica del IBEX 35** (decisión abierta 4): hay PDF oficial de BME (137 revisiones, 1991 a 2026); parseado y mapeado de forma provisional (ADR 0032); falta la revisión manual (27 códigos sin identificar, unas 15 a 20 h). Los precios de las salidas del índice: solo Bolsamanía en España, de calidad inferior.
+1. **Composición histórica del IBEX 35** (decisión abierta 4): hay PDF oficial de BME (137 revisiones, 1991 a 2026); parseado y mapeado de forma provisional (ADR 0032); contraste automático hecho con Wikipedia y el CNMV (103 de 134 filas con dos fuentes); quedan 7 códigos sin identificar y 24 filas con conflicto o sin segunda fuente (unas 5 h; unas 1,5 h si solo importan las salidas con precios disponibles). Los precios de las salidas del índice: solo Bolsamanía en España, de calidad inferior.
 2. **Tasa de impuestos del ROIC:** encaminada (efectiva TTM acotada [0%, 35%], fallback legal); falta verificar la taxonomía de CNMV y citar las tasas legales.
 3. **Retraso conservador de `available_at`:** se calibra con datos reales y se fija por ADR antes de entrenar (ADR 0014).
 4. **Umbrales pre-registrados** (aceptación de calidad, cobertura de P1, cobertura de índices 90 % y 80 %, train mínimo, test mínimo, paso, test final): se proponen con el informe de cobertura y se fijan antes de la primera ejecución real.

@@ -11,7 +11,7 @@ from stockpredictor.universe import bme_pdf as B
 
 REPO = Path(__file__).resolve().parents[2]
 REAL_PDF = Path(
-    os.environ.get("STOCKPREDICTOR_BME_PDF", REPO / "data/raw/bme_composicion_ibex35.pdf")
+    os.environ.get("STOCKPREDICTOR_BME_PDF", REPO / "data/raw/sources/bme_composicion_ibex35.pdf")
 )
 
 
@@ -97,4 +97,7 @@ def test_real_pdf_regenerates_committed_events():
         try_parse_dates=True,
         schema_overrides={"notes": pl.String},
     )
-    assert fresh.equals(committed)
+    # El CSV versionado lleva además el contraste con otras fuentes (reviewed, confianza, notas).
+    keys = ["revision_id", "effective_date", "event_type", "bme_code", "is_extraordinary",
+            "is_code_change_row"]  # fmt: skip
+    assert fresh.select(keys).equals(committed.select(keys))

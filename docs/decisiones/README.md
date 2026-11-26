@@ -37,6 +37,7 @@ Un archivo por decisión, `NNNN-slug.md`, con contexto, decisión, alternativas 
 | 0030 | h1500 sale del entrenamiento (revierte 6b) | Coordinador (delegado) | ADR-RC-12 |
 | 0031 | Flujo de ramas: `main`, `develop` y ramas cortas | Enrique | 2026-11-26 |
 | 0032 | Composición histórica del IBEX 35 desde el PDF de BME | Coordinador | P1-0 incremento 1 |
+| 0033 | Extracción de precios diarios de Yahoo a `data/raw` | Coordinador | P1-0 incremento 2 |
 
 ## ADR prometidos por la planificación, aún sin escribir
 Se numeran al crearlos, con el siguiente número libre (0032 en adelante), y antes de implementar lo que afectan.

@@ -11,3 +11,9 @@ fundamentals_es: {provider: cnmv, periodicity: semiannual}
 fundamentals_us: {provider: sec_edgar}   # el contacto del User-Agent va en .env, nunca en el repositorio
 fx: {provider: ecb}              # hora oficial de publicacion sin verificar
 macro: {providers: [fred_alfred, ecb, eurostat, ine], own_snapshots_from: null}  # fecha de inicio de la instantanea propia: fijar al guardar la primera
+# Yahoo chart (ADR 0033). Los valores por defecto del codigo coinciden; la CLI los acepta como opciones.
+yahoo_chart:
+  min_interval_seconds: 2.0     # prueba de P1.2: ~40 peticiones a ~2 s sin 429 desde el equipo de Enrique
+  max_retries: 4                # backoff 30, 60, 120, 240 s (tope 300) ante 429, 5xx o error de red
+  max_consecutive_errors: 3     # tras esto la ejecucion para y es reanudable
+  raw_dir: data/raw/prices/yahoo/<snapshot_id>

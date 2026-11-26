@@ -192,3 +192,8 @@ def test_usable_from_config_matches_data(events, code_map):
         for d in dates
         if d >= resolved_from
     )
+
+
+def test_prices_from_es_posterior_a_usable_from():
+    assert m.prices_from("ibex35") == D(2000, 1, 3)
+    assert m.prices_from("ibex35") > m.usable_from("ibex35")

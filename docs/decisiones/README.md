@@ -35,9 +35,10 @@ Un archivo por decisión, `NNNN-slug.md`, con contexto, decisión, alternativas 
 | 0028 | Costes con ITF por época | Coordinador (delegado) | ADR-RC-10 |
 | 0029 | Target transversal y componente de mercado (regla 5) | Coordinador (delegado) | ADR-RC-11 |
 | 0030 | h1500 sale del entrenamiento (revierte 6b) | Coordinador (delegado) | ADR-RC-12 |
+| 0031 | Flujo de ramas: `main`, `develop` y ramas cortas | Enrique | 2026-11-26 |
 
 ## ADR prometidos por la planificación, aún sin escribir
-Se numeran al crearlos, con el siguiente número libre (0031 en adelante), y antes de implementar lo que afectan.
+Se numeran al crearlos, con el siguiente número libre (0032 en adelante), y antes de implementar lo que afectan.
 - **Datos (P1, P2):** proveedores de precios y fundamentales; librería de contratos (pandera sobre polars) probada con `uv.lock` y 3.12; calendarios; prueba de scrip y test de regresión de Yahoo entre instantáneas.
 - **Transformación (P3):** retraso conservador calibrado (el valor, no el criterio); sesión de validez.
 - **Features (P4):** ventana finita de EMA/RSI/MACD; P/E calculado sobre market cap en lugar de `Close / EPS`.

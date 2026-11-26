@@ -57,6 +57,9 @@ Es investigación cuantitativa. Ningún resultado se presenta como recomendació
 ## 7. Estructura del repositorio
 `configs/` parámetros · `data/` datos (fuera de git; incluye `data/reference/` con composición histórica de índices) · `src/stockpredictor/{extraction,interim,quality,universe,transform,features,dataset,training,evaluation,registry,inference,monitoring}` · `models/` registro por horizonte y versión · `experiments/` runs de entrenamiento y evaluación, accesos al test y promociones · `runs/` resúmenes de ejecución de las etapas (fuera de git, purgable) · `notebooks/` exploración · `tests/{unit,leakage,integration}` · `scripts/` envoltorios finos · `tools/calendars/` generación de calendarios (con pandas) · `docs/` convenciones, limitaciones, decisiones · `tmp/` temporal. Detalle en `docs/estructura_proyecto.md`.
 
+## 7b. Flujo de ramas
+`main` estable, `develop` de integración y ramas cortas por tarea (`feat/`, `fix/`, `docs/`) que van por PR a `develop`. De `develop` se pasa a `main` por PR solo si no hay fallos, y solo cuando Enrique lo pide. Detalle en `CONTRIBUTING.md` y ADR 0031.
+
 ## 8. Cómo trabajar con Enrique
 - Responder en español, empezando por "Enrique". Conciso, sin explicar lo básico.
 - Cuestionar el planteamiento cuando haya fallos. Sin halagos.

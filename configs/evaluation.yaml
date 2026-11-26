@@ -1,0 +1,3 @@
+# Metricas e informes (P6). El pre-registro (ADR) fija la lista del modelo de control y los umbrales de coste y liquidez.
+rankic: {min_names_per_date: 10}   # provisional
+cost_scenarios: null               # tres escenarios etiquetados "supuesto"

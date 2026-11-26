@@ -1,0 +1,3 @@
+frequency: null                 # propuesta P7: semanal; por definir
+min_history: null
+freshness_thresholds: null      # se fijan antes de ver resultados

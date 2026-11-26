@@ -31,3 +31,11 @@ htmlcov/
 .DS_Store
 *.duckdb
 *.duckdb.wal
+
+# Resumenes de ejecucion de etapas (purgables) y datos derivados
+runs/*
+!runs/.gitkeep
+data/predictions/
+data/snapshots/
+data/archive/
+data/user/

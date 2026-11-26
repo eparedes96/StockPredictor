@@ -1,3 +1,5 @@
+> **Histórico (2026-11-26).** Borrador inicial, superado en parte por la planificación posterior. Vigente: `CLAUDE.md`, `docs/convenciones.md`, `docs/limitaciones.md`, `docs/mlops.md` y `docs/decisiones/`. Ante un conflicto manda lo vigente.
+
 # Plan por fases (borrador 1: solo fases, sin detalle de tareas)
 
 Fecha: 2026-11-25. Estado: propuesto, pendiente de aprobación de Enrique.

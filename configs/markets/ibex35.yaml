@@ -1,0 +1,13 @@
+# Ficha de mercado (P8 16a). Un archivo por mercado; el id coincide con universe.yaml.
+id: ibex35
+status: ready                   # ready | viable | partial | closed
+exchange: BME
+currency: EUR
+timezone: Europe/Madrid
+calendar: XMAD                  # calendarios generados a Parquet por `stockpredictor calendars` (tools/calendars/)
+fundamentals_source: cnmv       # solo semestral
+fundamentals_periodicity: semiannual
+close_raw_source: bolsamania    # Close real (coherencia interna verificada en 8 de 8 empresas; repetir con el universo real)
+adj_close_source: yahoo
+accessible_from_spain: null     # metadato opcional, sin efecto (ADR 0011)
+valuation_enabled: true         # España tiene Close real; ver ADR 0013

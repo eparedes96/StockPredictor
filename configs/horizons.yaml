@@ -1,1 +1,2 @@
-horizons_days: [90, 365, 1500]   # un modelo por horizonte
+horizons_days: [90, 365, 1500]   # un modelo por horizonte y universo
+unit: calendar_days              # ADR 0005; las ventanas de features van en sesiones

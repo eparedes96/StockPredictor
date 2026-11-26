@@ -1,0 +1,12 @@
+id: nasdaq100
+status: not_open                # F2; composición histórica sin verificar (P8 13a)
+exchange: NASDAQ
+currency: USD
+timezone: America/New_York
+calendar: XNAS
+fundamentals_source: sec_edgar
+fundamentals_periodicity: quarterly
+close_raw_source: null          # sin Close real verificado
+adj_close_source: yahoo
+accessible_from_spain: null
+valuation_enabled: false        # apagada hasta 10 cierres reales verificados (ADR 0013)

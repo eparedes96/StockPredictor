@@ -1,4 +1,11 @@
 scheme: walk_forward
-window: expanding              # expanding | rolling
-embargo_days: horizon          # >= N
-purge: true
+window: expanding              # expanding | rolling (sensibilidad)
+purge: label_end_date          # max(label_end_date de train) < inicio del test - embargo (ADR 0008)
+embargo_sessions: 5            # provisional
+viability:                     # ADR 0007, provisional; no se toca tras ver metricas
+  viable_min_windows: 10
+  exploratory_min_windows: 4
+min_train_years: null          # se propone tras P5a y se fija antes de la primera ejecucion real
+min_test_years: null
+step: null
+final_test_years: null

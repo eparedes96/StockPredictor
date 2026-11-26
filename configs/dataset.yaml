@@ -1,0 +1,2 @@
+# Parametros de construccion del dataset por horizonte (P5). Detalle por definir al implementar P5a.
+min_names_per_date: 10          # provisional

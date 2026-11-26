@@ -1,5 +1,5 @@
 # ADR 0002: Promedio de balance para ROE, ROA y Asset Turnover (2026-11-25)
-**Estado.** Revisable. Propuesto por el coordinador de la sesión; Enrique no la ha confirmado.
+**Estado.** Sustituido por el ADR 0004 (2026-11-26). Se conserva por historial: la fuente de España es semestral, no trimestral.
 
 **Contexto.** `plan_datos.md` define ROE, ROA y Asset Turnover con numerador TTM y denominador "(promedio)" sin precisar el promedio.
 

@@ -1,0 +1,7 @@
+# Extractor de composición por configuración (P8 15a). Un archivo por índice.
+id: ibex35
+market: ibex35
+membership_source: bme_pdf      # PDF oficial de revisiones de BME
+membership_format: pdf
+start_date: null                # historia completa disponible (P1 2b); fijar al cargar
+announcement_and_effective_dates: both

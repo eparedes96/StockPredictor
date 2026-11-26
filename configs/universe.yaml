@@ -1,8 +1,11 @@
-phase: F1            # F1 = ibex35 | F2 = ibex35 + nasdaq100 | F3 = all
+phase: F1            # F1 = ibex35 | F2 = ibex35 + nasdaq100 | F3 = mercados con ficha lista, de uno en uno
 markets_by_phase:
   F1: [ibex35]
   F2: [ibex35, nasdaq100]
-  F3: all_accessible_from_spain   # lista por definir (decision abierta)
+  F3: ready_markets   # mercados con status ready|viable|partial en configs/markets/ (ADR 0011: sin filtro de accesibilidad)
 filters:
-  min_avg_daily_volume_eur: null  # por definir
-start_date: null                  # por definir segun fuente
+  min_traded_value_20d_local: null  # moneda local por mercado (P6 34a); por definir antes de reportar financieras
+start_date: null                    # por mercado, en configs/indices/
+coverage_thresholds:                # P8 14a, provisionales, registrados antes de ver resultados
+  min_dates_with_membership: 0.90
+  min_members_with_prices: 0.80

@@ -1,0 +1,3 @@
+drift: {method: null, thresholds: null}   # PSI frente a KS sin verificar; umbrales provisionales antes de ver resultados
+refresh_schedule: {h90: quarterly, h365: semiannual, h1500: semiannual}   # propuesta sin base medida
+promotion: {mode: assisted}               # propone el sistema, aprueba Enrique

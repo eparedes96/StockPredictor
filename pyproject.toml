@@ -20,6 +20,8 @@ stockpredictor = "stockpredictor.cli:main"
 ui = ["streamlit"]
 # Solo si LightGBM/scikit-learn lo exigen en el borde del modelado (sin verificar). No usar en transform/ ni features/.
 pandas = ["pandas"]
+# Solo para tools/calendars/ (genera calendarios a Parquet; exchange_calendars exige pandas).
+calendars = ["exchange_calendars"]
 
 [dependency-groups]
 dev = ["pytest", "pytest-cov", "ruff", "mypy", "types-PyYAML", "types-requests", "pre-commit"]
@@ -52,6 +54,7 @@ select = ["E", "F", "I", "B", "UP", "TID"]
 "src/stockpredictor/training/*" = ["TID251"]
 "src/stockpredictor/evaluation/*" = ["TID251"]
 "tests/*" = ["TID251"]
+"tools/calendars/*" = ["TID251"]
 
 [tool.mypy]
 python_version = "3.11"

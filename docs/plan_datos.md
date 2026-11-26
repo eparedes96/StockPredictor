@@ -1,3 +1,5 @@
+> **Histórico (2026-11-26).** Borrador inicial, superado en parte por la planificación posterior. Vigente: `CLAUDE.md`, `docs/convenciones.md`, `docs/limitaciones.md`, `docs/mlops.md` y `docs/decisiones/`. Ante un conflicto manda lo vigente.
+
 # Plan de Datos: Modelo Predictivo de Cotización
 
 > Transcrito tal cual del mensaje de Enrique del 2026-11-25. Las tres tablas están sin cambios. Las divergencias con `CLAUDE.md` se anotan al final; ante un conflicto, manda `CLAUDE.md`.

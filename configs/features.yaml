@@ -1,3 +1,5 @@
-winsorize_pct: [1, 99]          # ajustar solo con train
+winsorize_pct: [1, 99]          # se ajusta con train de cada fold (ADR 0016)
 null_policy: {}                 # por variable
-sector_min_size: null           # minimo para z-score por sector (por definir)
+sector_min_size: null           # n_min de normalizacion; inicial 10, provisional, medir antes de fijar
+window_min_coverage: 0.80       # P4 12a, provisional
+roic_tax_bounds: [0.0, 0.35]    # con fallback a tasa legal (pendiente de verificar)

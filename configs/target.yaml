@@ -1,3 +1,4 @@
-type: log_return_absolute      # regresion
-price_column: adjusted_close
+type: log_return_absolute        # regresion
+price_column: price_for_returns  # adj_close, o close_raw con eventos confirmados (ADR 0006)
 entry: close_t_plus_1
+return_currency: local           # ADR 0012; EUR solo como diagnostico

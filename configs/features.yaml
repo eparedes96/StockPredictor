@@ -1,5 +1,11 @@
-winsorize_pct: [1, 99]          # se ajusta con train de cada fold (ADR 0016)
+# Features. Cantidades numericas: ver preregistered.yaml.
+normalization:
+  default: rank                 # ADR 0024: rango transversal por fecha en [-0.5, 0.5], sin estado por fold
+  range: [-0.5, 0.5]
+  ablation: robust_z            # z robusta tras winsorizing [1, 99] ajustado con el train de cada fold
+winsorize_pct: [1, 99]          # solo para la ablacion
 null_policy: {}                 # por variable
-sector_min_size: null           # n_min de normalizacion; inicial 10, provisional, medir antes de fijar
-window_min_coverage: 0.80       # P4 12a, provisional
+is_financial_column: is_financial   # ADR 0025: explicita; los not_applicable no hacen de variable de sector
 roic_tax_bounds: [0.0, 0.35]    # con fallback a tasa legal (pendiente de verificar)
+blocks_off_by_default: [macro, fx, index_return, sector]   # macro, FX e indice, ademas, fuera del modelo transversal (ADR 0029)
+ablations: [no_days_since_report, no_valuation, robust_z, no_sector]

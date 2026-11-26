@@ -1,5 +1,5 @@
 # Inferencia y mejora continua
-Diseño vigente. Todo umbral, frecuencia y calendario es **provisional y no medido**; se fija antes de ver resultados y se calibra con repetición histórica as-of en F1.
+Diseño vigente. **Solo P7a (inferencia, registro y archivo de predicciones) se construye ahora; P7b (monitorización completa, reentrenamiento y promoción) queda aplazado** (ADR 0027). Horizontes activos: 90 y 365; h1500 no tiene modelo, registro, drift ni promoción (ADR 0030). Todo umbral, frecuencia y calendario es **provisional y no medido**; se fija antes de ver resultados y se calibra con repetición histórica as-of en F1.
 
 ## Inferencia
 - Una API Python estable (`predict(as_of, universe_id, horizon, ...)` devuelve un DataFrame polars con contrato) sobre la que se apoyan la CLI y una interfaz futura. Sin rutas absolutas ni estado oculto.
@@ -12,18 +12,18 @@ Diseño vigente. Todo umbral, frecuencia y calendario es **provisional y no medi
 `models/{universe_id}/h{N}/v{versión}/` con `metadata.json`, preprocesador y estado de los transformadores; `CHAMPION` por universo y horizonte (ver `models/README.md`). Formato de serialización sin código ejecutable; hash y versión de esquema verificados al cargar. Si el hash del champion no coincide, `predict` se niega.
 
 ## Disparadores
-- **Principal:** drift de features, de nulos y de predicciones frente a la distribución de entrenamiento (PSI o KS por feature, tasa de nulos, frescura), más calendario. Método y umbrales sin verificar.
-- **El RankIC realizado** sobre predicciones maduras se reporta con N_eff e intervalo por bloques y **solo avisa**: a 365 días el primer resultado tarda más de un año y a 1500 más de cuatro. No es disparador por sí solo.
+- **Principal:** drift de features (medido sobre las features sin normalizar, con la dispersión transversal, porque el rango por fecha oculta el nivel), de nulos y de predicciones frente a la distribución de entrenamiento (PSI o KS por feature, tasa de nulos, frescura), más calendario. Método y umbrales sin verificar.
+- **El RankIC realizado** sobre predicciones maduras se reporta con N_eff e intervalo por bloques y **solo avisa**: a 365 días el primer resultado tarda más de un año. No es disparador por sí solo.
 - Drift por régimen: distribución de predicciones por periodo y correlación de la predicción media con el retorno de mercado reciente, como diagnóstico.
 
 ## Reentrenamiento
-- **Refresco:** misma especificación congelada (features, hiperparámetros, semilla pre-registrada); solo se añaden datos. Calendario propuesto sin base medida: h90 trimestral; h365 y h1500 semestral o anual; más disparo por drift fuerte o cambio de universo.
+- **Refresco:** misma especificación congelada (features, hiperparámetros, semilla pre-registrada); solo se añaden datos. Calendario propuesto sin base medida: h90 trimestral; h365 semestral o anual; más disparo por drift fuerte o cambio de universo.
 - **Candidato nuevo:** cualquier cambio de especificación; sigue el proceso de evaluación con su hash y su propio test.
 
 ## Promoción (champion/challenger)
 - No se reutiliza el test final del candidato anterior. Un refresco se comprueba con walk-forward reciente anterior a su entrenamiento, paridad, drift y comparación sombra con el champion. Un candidato nuevo necesita un bloque posterior a todo dato usado para elegirlo, con consulta registrada y hash congelado.
 - **Asistida:** el sistema propone con informe y Enrique aprueba; la decisión queda registrada en `experiments/` (y como ADR corto si cambia reglas). Criterios provisionales: no peor en riesgo, mejora mínima fijada de antemano, intervalo con bloques que respeten el solape, paridad y drift en verde. Se pre-registran antes de la primera promoción.
-- **En horizontes largos casi nunca se promoverá:** cada candidato nuevo agota el bloque posterior y los resultados maduros tardan años. "No promover" es el valor por defecto. Es coherente con el diseño, pero la mejora continua es lenta por construcción.
+- **En h365 casi nunca se promoverá:** cada candidato nuevo agota el bloque posterior y los resultados maduros tardan años. "No promover" es el valor por defecto. Es coherente con el diseño, pero la mejora continua es lenta por construcción.
 - `promote --rollback` restaura el champion anterior sin tocar datos; el champion previo se conserva siempre.
 - Si ningún modelo supera a los baselines, el champion es el baseline etiquetado.
 

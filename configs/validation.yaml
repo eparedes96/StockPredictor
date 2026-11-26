@@ -1,11 +1,9 @@
 scheme: walk_forward
 window: expanding              # expanding | rolling (sensibilidad)
 purge: label_end_date          # max(label_end_date de train) < inicio del test - embargo (ADR 0008)
-embargo_sessions: 5            # provisional
-viability:                     # ADR 0007, provisional; no se toca tras ver metricas
-  viable_min_windows: 10
-  exploratory_min_windows: 4
-min_train_years: null          # se propone tras P5a y se fija antes de la primera ejecucion real
-min_test_years: null
-step: null
-final_test_years: null
+reserved_calendar:             # ADR 0021: reserva global para todos los horizontes
+  scope: global
+  # final_test_years y embargo_sessions: ver preregistered.yaml
+  opened: false                # el test final no se ha tocado
+  access_log: experiments/test_access_log.csv
+# Las cantidades (train minimo, test minimo, paso, umbrales de viabilidad) viven en preregistered.yaml

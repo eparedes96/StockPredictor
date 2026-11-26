@@ -1,2 +1,6 @@
-horizons_days: [90, 365, 1500]   # un modelo por horizonte y universo
+horizons_days: [90, 365]         # activos: un modelo por horizonte y universo (ADR 0030)
+descriptive_horizons_days: [1500]   # solo estadística descriptiva (retornos, dispersión, N_eff); sin modelo, registro ni MLOps. Reactivable.
 unit: calendar_days              # ADR 0005; las ventanas de features van en sesiones
+decision_date_sampling:          # ADR 0026
+  90: weekly
+  365: monthly

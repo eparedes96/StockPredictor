@@ -1,0 +1,33 @@
+# Cantidades pre-registradas (ADR 0020). UN nombre y UN valor por cantidad.
+# status: provisional hasta que un ADR de pre-registro las firme, antes de la primera ejecucion real.
+# Cambiarlas exige justificacion escrita y nunca despues de mirar metricas del modelo.
+status: provisional
+# Potencia y etiqueta de resultado (ADR 0019)
+effect_of_interest_rankic: 0.05          # extremo alto del rango 0,02-0,05 citado (no verificado)
+go_no_go:                                # ADR 0027; por hito, no por fecha
+  mde_threshold_rankic: 0.05
+  hours_budget_after_p1_0: null          # lo fija Enrique en el primer go/no-go
+  hours_budget_after_vertical_cut: null
+# Viabilidad (ADR 0007)
+viable_min_windows: 10
+exploratory_min_windows: 4
+# Validacion (ADR 0008, 0021)
+embargo_sessions: 5
+min_train_years: null                    # se propone tras P5a, con tabla de sensibilidad (5, 8, 10)
+min_test_years: null
+step: null
+final_test_years: 3
+# Normalizacion y dataset
+n_min_normalization: 10                  # tamano minimo de grupo; medir antes de fijar
+min_eligible_names_per_date: 10          # dataset (P5)
+min_names_per_date_rankic: 10            # evaluacion (P6)
+window_min_coverage: 0.80                # features (P4 12a)
+# Calibradas con datos anteriores al bloque reservado (ADR 0020)
+conservative_delay_percentile: 95
+max_staleness_days: null
+# Calidad y cobertura
+index_coverage:
+  min_dates_with_membership: 0.90
+  min_members_with_prices: 0.80
+quality_acceptance_thresholds: null      # se proponen con el informe de cobertura
+plan_b_min_years_fundamentals: 4         # fundamentales semestrales con available_at real

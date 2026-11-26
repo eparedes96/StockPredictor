@@ -1,3 +1,20 @@
-# Metricas e informes (P6). El pre-registro (ADR) fija la lista del modelo de control y los umbrales de coste y liquidez.
-rankic: {min_names_per_date: 10}   # provisional
-cost_scenarios: null               # tres escenarios etiquetados "supuesto"
+# Metricas e informes (P6). Cantidades: preregistered.yaml.
+primary_metric: rankic_mean_by_date
+effect_of_interest_label: see preregistered.yaml
+baselines:                      # ADR 0023
+  cross_sectional: [momentum_12_1, reversal_1m, low_vol_60, value_simple, size]   # value y tamano si hay datos
+  time_series: [expanding_historical_mean, equal_weighted, price_index]
+significance:                   # ADR 0022
+  primary: non_overlapping_subsamples_all_offsets
+  secondary: [hac_dm_hln_1997, student_t, block_bootstrap]
+  permutation: {repetitions: 1000}
+backtest:
+  portfolio: terciles_or_rank_weighted   # solo largos; quintiles y long-short solo diagnostico
+  tranches: monthly
+costs:                          # ADR 0028; todos etiquetados "supuesto"
+  base: costs_of_each_epoch
+  extra_scenario: costs_of_today_on_all_history
+  scenarios: null               # tres escenarios, por definir
+  spain_itf: {rate: 0.002, from: "2021-01-16", min_market_cap_eur: 1000000000}   # verificar con fuente oficial
+  france_itf: {rate: 0.004, from: "2025-04-01"}                                   # verificar con fuente oficial
+  liquidity_in_local_currency: true

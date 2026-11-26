@@ -7,4 +7,4 @@
 
 **Alternativas.** Solo purga; embargo de 2N.
 
-**Consecuencias.** Test de invariante en `tests/leakage/`. El valor del embargo se revisa con evidencia de autocorrelación de features. La regla 6 de CLAUDE.md queda reescrita en este PR.
+**Consecuencias.** Test de invariante en `tests/leakage/`. El valor del embargo se revisa con evidencia de autocorrelación de features. El calendario de reserva global (ADR 0021) excluye también las fechas reservadas del walk-forward de todos los horizontes. La regla 6 de CLAUDE.md queda reescrita en este PR.

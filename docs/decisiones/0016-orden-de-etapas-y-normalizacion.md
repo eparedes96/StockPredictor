@@ -1,5 +1,5 @@
 # ADR 0016: Orden de etapas y quién normaliza (2026-11-26)
-**Estado.** Aceptado por el coordinador (2026-11-26); pendiente de revisión de Enrique. (C16 de la auditoría).
+**Estado.** Aceptado por el coordinador (2026-11-26); pendiente de revisión de Enrique. (C16 de la auditoría). Matizado por el ADR 0024: la normalización por defecto pasa a ser por rango, sin estado por fold; el orden de etapas se mantiene.
 
 **Contexto.** La normalización cross-sectional y el winsorizing se atribuían a P3 (etapa final), a P4 (la bruta) y a P5/P6 (fit por fold) sin que ningún subcomando los ejecutara después de `features`.
 

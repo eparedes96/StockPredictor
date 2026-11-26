@@ -12,11 +12,12 @@ stockpredictor/
 │   ├── universe.yaml            # Fase activa, mercados por fase, filtros, umbrales de cobertura
 │   ├── markets/                 # Ficha por mercado: calendario, divisa, zona horaria, fuentes, estado, valuation_enabled
 │   ├── indices/                 # Extractor de composición por índice (fuente, formato)
-│   ├── horizons.yaml            # Lista de N (días naturales) y un modelo por cada uno
+│   ├── horizons.yaml            # Horizontes activos (90, 365), h1500 descriptivo, muestreo de fechas
+│   ├── preregistered.yaml       # Cantidades pre-registradas con nombre propio (ADR 0020); provisional hasta firmar
 │   ├── data_sources.yaml        # Proveedores, límite de tasa, caché (sin robots.txt, ADR 0010)
 │   ├── features.yaml            # Ventanas, winsorizing, política de nulos por variable
-│   ├── target.yaml              # Tipo, price_for_returns, entrada, return_currency
-│   ├── validation.yaml          # Walk-forward: ventana, purga, embargo, viabilidad, train mínimo
+│   ├── target.yaml              # Target transversal y componente de mercado, price_for_returns, return_currency
+│   ├── validation.yaml          # Walk-forward, purga y calendario de reserva global
 │   ├── quality.yaml, transform.yaml, dataset.yaml, evaluation.yaml,
 │   │   inference.yaml, monitoring.yaml, retention.yaml   # umbrales provisionales o por definir
 │   └── models/                  # Un YAML por algoritmo (ridge, lgbm, xgb, catboost)
@@ -65,7 +66,7 @@ stockpredictor/
 │   │   ├── target.py            # Target por N (días naturales) y comprobación anti-fuga
 │   │   ├── build.py             # Dataset por horizonte, elegibilidad, versionado
 │   │   ├── splits.py            # Walk-forward con purga por label_end_date
-│   │   ├── effective_n.py       # Ventanas independientes y regla de viabilidad
+│   │   ├── effective_n.py       # Ventanas independientes, regla de viabilidad y MDE
 │   │   └── manifest.py          # Hash, instantánea y configuración
 │   ├── training/                # 3. Diseño de entrenamiento
 │   │   ├── models.py            # Baselines y GBM

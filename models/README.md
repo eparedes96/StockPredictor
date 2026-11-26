@@ -10,8 +10,7 @@ models/
     │       ├── metadata.json        # ver abajo
     │       ├── preprocessor/        # estado de winsorizing, normalización e imputación (JSON)
     │       └── model.*              # binario (fuera de git; formato sin código ejecutable)
-    ├── h365/
-    └── h1500/
+    └── h365/                    # h1500 no tiene modelo (ADR 0030)
 ```
 
 ## `metadata.json` (campos mínimos)

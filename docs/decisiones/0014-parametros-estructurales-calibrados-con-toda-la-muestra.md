@@ -1,5 +1,5 @@
 # ADR 0014: Parámetros estructurales calibrados con toda la muestra (excepción acotada a la regla 7) (2026-11-26)
-**Estado.** Aceptado por el coordinador (2026-11-26); pendiente de revisión de Enrique.
+**Estado.** Integrado en el ADR 0020 (cantidades pre-registradas), que fija además que la calibración usa solo datos anteriores al bloque reservado (ADR 0021). Se conserva como antecedente.
 
 **Contexto.** La regla 7 exige estimar umbrales con el train de cada fold. Varios parámetros solo se pueden medir con la distribución real: retraso conservador (p95 global), `max_staleness_days`, cobertura mínima de ventana, train mínimo, umbrales de calidad y cobertura. Cada plan lo declaraba, pero no había un ADR que acotara el riesgo.
 

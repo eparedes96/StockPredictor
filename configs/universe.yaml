@@ -6,6 +6,4 @@ markets_by_phase:
 filters:
   min_traded_value_20d_local: null  # moneda local por mercado (P6 34a); por definir antes de reportar financieras
 start_date: null                    # por mercado, en configs/indices/
-coverage_thresholds:                # P8 14a, provisionales, registrados antes de ver resultados
-  min_dates_with_membership: 0.90
-  min_members_with_prices: 0.80
+# Umbrales de cobertura del indice: ver preregistered.yaml (index_coverage)

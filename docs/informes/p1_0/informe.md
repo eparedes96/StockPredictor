@@ -1,5 +1,5 @@
 # Informe P1-0: potencia del IBEX solo con precios
-**Resultados con sesgo de supervivencia (sin deslistadas).** Precios: Yahoo `adj_close`, instantánea `2026-11-26` (sha256 `d7e2fb40aee2…`). Datos desde 2000-01-03 hasta 2026-11-26. Commit: `f7c73d1f36f577b6d5fcddecbceca5a001fe9795`. Generado con `stockpredictor report-p1-0` (parámetros, versiones y semilla en `run.json`).
+**Resultados con sesgo de supervivencia (sin deslistadas).** Precios: Yahoo `adj_close`, instantánea `2026-11-26` (sha256 `d7e2fb40aee2…`). Datos desde 2000-01-03 hasta 2026-11-26. Commit: `9beb478ad0afa14e079bee80016095d7430f71ff`. Generado con `stockpredictor report-p1-0` (parámetros, versiones y semilla en `run.json`).
 
 ## 1. Resultado por horizonte
 Efecto de interés: RankIC medio de 0,05 (ADR 0019). Train mínimo principal: 8 años. MDE con α = 0,05 bilateral y potencia 0,80, t de Student no central; cifra titular = mediana de los tres baselines. La etiqueta es "detectable" si MDE ≤ efecto y "no concluyente por diseño" si no.

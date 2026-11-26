@@ -1,0 +1,19 @@
+horizon,descriptive,train_years,reserved_block,first_oos,last_oos_label_end,n_dates,n_eff,n_eff_min,n_eff_max,windows_span,viability
+90,false,5,true,2005-04-15,2023-11-17,958,74.0,73,74,75,viable
+90,false,5,false,2005-04-15,2026-11-20,1115,86.0,85,86,87,viable
+90,false,8,true,2008-04-11,2023-11-17,802,62.0,61,62,63,viable
+90,false,8,false,2008-04-11,2026-11-20,959,74.0,73,74,75,viable
+90,false,10,true,2010-04-16,2023-11-17,697,54.0,53,54,55,viable
+90,false,10,false,2010-04-16,2026-11-20,854,66.0,65,66,67,viable
+365,false,5,true,2006-01-31,2023-11-01,202,16.0,16,17,17,viable
+365,false,5,false,2006-01-31,2026-11-03,238,19.0,19,20,20,viable
+365,false,8,true,2009-01-30,2023-11-01,166,13.0,13,14,14,viable
+365,false,8,false,2009-01-30,2026-11-03,202,16.0,16,17,17,viable
+365,false,10,true,2011-01-31,2023-11-01,142,12.0,11,12,12,viable
+365,false,10,false,2011-01-31,2026-11-03,178,15.0,14,15,15,viable
+1500,true,5,true,2009-02-27,2023-11-09,128,3.0,2,3,3,no evaluable con rigor
+1500,true,5,false,2009-02-27,2026-11-11,164,3.0,3,4,4,no evaluable con rigor
+1500,true,8,true,2012-02-29,2023-11-09,92,2.0,1,2,2,no evaluable con rigor
+1500,true,8,false,2012-02-29,2026-11-11,128,3.0,2,3,3,no evaluable con rigor
+1500,true,10,true,2014-02-28,2023-11-09,68,1.0,1,2,2,no evaluable con rigor
+1500,true,10,false,2014-02-28,2026-11-11,104,2.0,2,3,3,no evaluable con rigor

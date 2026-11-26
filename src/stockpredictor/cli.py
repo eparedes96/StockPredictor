@@ -44,6 +44,16 @@ def build_parser() -> argparse.ArgumentParser:
     rep.add_argument(
         "--as-of", type=dt.date.fromisoformat, help="fecha de la descarga (AAAA-MM-DD)"
     )
+
+    p10 = sub.add_parser(
+        "report-p1-0",
+        help="Informe P1-0: N_eff, error típico del RankIC, MDE y permutación solo con precios.",
+    )
+    p10.add_argument("--snapshot", required=True, help="instantánea de Yahoo con tablas Parquet")
+    p10.add_argument("--raw-dir", type=Path, default=REPO_ROOT / "data" / "raw")
+    p10.add_argument("--out-dir", type=Path, default=REPO_ROOT / "docs" / "informes" / "p1_0")
+    p10.add_argument("--permutations", type=int, default=1000)
+    p10.add_argument("--seed", type=int, default=20261126)
     return parser
 
 
@@ -143,12 +153,33 @@ def _cmd_report(args: argparse.Namespace) -> int:
     return 0
 
 
+def _cmd_report_p1_0(args: argparse.Namespace) -> int:
+    from stockpredictor.evaluation import p1_0
+    from stockpredictor.universe import membership
+
+    _setup_logging(None)
+    log = logging.getLogger("stockpredictor.cli")
+    prices, sha = p1_0.load_prices_verified(args.raw_dir, args.snapshot)
+    intervals = membership.build_membership_intervals(
+        membership.load_events(), membership.load_code_map()
+    )
+    params = p1_0.Params.from_configs(n_perm=args.permutations, seed=args.seed)
+    meta = {"snapshot_id": args.snapshot, "prices_sha256": sha}
+    res = p1_0.run(prices, intervals, membership.prices_from(), params, meta)
+    p1_0.write_outputs(res, args.out_dir)
+    log.info("informe en %s", args.out_dir / "informe.md")
+    print(res.summary)
+    return 0
+
+
 def main(argv: Sequence[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     if args.command == "extract-prices-yahoo":
         return _cmd_extract(args)
     if args.command == "report-prices-yahoo":
         return _cmd_report(args)
+    if args.command == "report-p1-0":
+        return _cmd_report_p1_0(args)
     return 0
 
 

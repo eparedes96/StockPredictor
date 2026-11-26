@@ -1,5 +1,5 @@
 # P1-0: N_eff y MDE solo con precios (ADR 0027)
-**Estado: no ejecutada.** Es la fase previa: decide si compensa el trabajo grande de fundamentales. Entradas: Yahoo `adjclose` del IBEX histórico y la composición de BME (`data/reference/`). Sin fundamentales.
+**Estado: ejecutada con precios de Yahoo (instantánea 2026-11-26), con sesgo de supervivencia (sin deslistadas). Resultados en `informe.md`; regenerar con `stockpredictor report-p1-0 --snapshot 2026-11-26 --raw-dir <raw>`. Definiciones en el ADR 0034.** Es la fase previa: decide si compensa el trabajo grande de fundamentales. Entradas: Yahoo `adjclose` del IBEX histórico y la composición de BME (`data/reference/`). Sin fundamentales.
 
 ## Entregable: `informe.md` en esta carpeta
 Por horizonte (h90 y h365), con target transversal `y_cs`, fechas semanales (h90) y mensuales (h365):

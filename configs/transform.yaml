@@ -1,0 +1,2 @@
+conservative_delay_days: {}     # por mercado y tipo de informe; percentil en preregistered.yaml; global, fijado por ADR antes de entrenar
+max_staleness_days: {}          # por mercado y periodicidad; medido, no inventado

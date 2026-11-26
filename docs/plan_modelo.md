@@ -1,3 +1,7 @@
+> **Histórico (2026-11-26).** Borrador inicial, superado en parte por la planificación posterior. Vigente: `CLAUDE.md`, `docs/convenciones.md`, `docs/limitaciones.md`, `docs/mlops.md` y `docs/decisiones/`. Ante un conflicto manda lo vigente.
+
+> **Cambios posteriores relevantes:** el target de entrenamiento es el log-retorno transversal y el absoluto se compone con un componente de mercado (ADR 0029); los horizontes activos son 90 y 365, y 1500 es descriptivo (ADR 0030, revierte la decisión 6b); la normalización por defecto es por rango (ADR 0024).
+
 # Plan Básico: Modelo Predictivo de Cotización
 
 ## 1. Objetivo y Entradas del Modelo

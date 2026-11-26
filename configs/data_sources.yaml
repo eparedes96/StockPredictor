@@ -1,5 +1,13 @@
-# Fuentes gratuitas. Completar tras verificar limites y terminos de uso (ADR).
-prices: {provider: null}
-fundamentals_es: {provider: cnmv}
-fundamentals_us: {provider: sec_edgar}
-macro: {providers: [fred, ecb, eurostat, ine]}
+# Fuentes gratuitas, sin claves de pago. Los limites y terminos se anotan en docs/limitaciones.md cuando se verifican.
+scraping:
+  respect_robots_txt: false     # ADR 0010: uso propio
+  rate_limit_seconds: null      # por proveedor; Yahoo: retraso de 2 a 2,5 s previsto en P1; no hay límite oficial verificado
+  stop_on_anomalous_response: true
+  cache: data/raw
+prices:
+  adj_close: yahoo              # solo desde el equipo de Enrique (429 desde el cloud)
+  close_raw_es: bolsamania
+fundamentals_es: {provider: cnmv, periodicity: semiannual}
+fundamentals_us: {provider: sec_edgar}   # el contacto del User-Agent va en .env, nunca en el repositorio
+fx: {provider: ecb}              # hora oficial de publicacion sin verificar
+macro: {providers: [fred_alfred, ecb, eurostat, ine], own_snapshots_from: null}  # fecha de inicio de la instantanea propia: fijar al guardar la primera

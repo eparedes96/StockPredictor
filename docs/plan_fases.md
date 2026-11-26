@@ -1,3 +1,24 @@
+> **Histórico (2026-11-26).** Borrador inicial, superado en parte por la planificación posterior. Vigente: `CLAUDE.md`, `docs/convenciones.md`, `docs/limitaciones.md`, `docs/mlops.md` y `docs/decisiones/`. Ante un conflicto manda lo vigente.
+
+# Plan de fases vigente (v3, 2026-11-26; ADR 0027, 0029 y 0030)
+
+## Orden de trabajo
+1. **P1-0, fase previa.** Con Yahoo `adjclose` del IBEX y la composición del PDF de BME, solo con precios: ventanas fuera de muestra evaluables, N_eff, error típico real del RankIC de los baselines transversales (momentum 12-1, reversión a 1 mes, baja volatilidad 60) y **MDE** por horizonte (h90 y h365), con contraste de permutación real. Entregable: informe en `docs/` con tablas por horizonte. **Go/no-go 1.**
+2. **P1a.** Composición histórica, precios de toda la vida de la cotización, referencia y macro. Las tablas manuales (mapeo de códigos de BME, `exit_events`, revisión de saltos) van en CSV versionados con fuente por fila, con **estimación de horas antes de empezar**.
+3. **Corte vertical con el plan B.** IBEX, precios, unas 8 técnicas, h90, Ridge, baselines transversales, walk-forward con purga, informe. Con P2 a P6 en su versión mínima. **Go/no-go 2.**
+4. **P1b.** Fundamentales de CNMV como bloque encima (el plan A de 4b).
+5. **P7a solo.** Inferencia, registro y archivo de predicciones, con el primer baseline archivado desde el principio. P7b, aplazado.
+6. **F2** (Nasdaq-100): ampliación de datos y validación técnica del pipeline, no evidencia independiente. Espera al go/no-go tras P1-0 y tras el corte vertical.
+
+## Reglas de go/no-go
+Se disparan por hito, no por fecha; **Enrique fija las horas en el primero**. Si el MDE del IBEX a h90 es > 0,05 y el Mercado Continuo no lo baja a ≤ 0,05, el IBEX pasa a universo de validación técnica. Igual criterio a h365 con su MDE. El Mercado Continuo es una decisión condicionada al MDE de P1-0 (cobertura de Bolsamanía y composición histórica sin verificar).
+
+## Horizontes
+Activos: 90 y 365. 1500 es estadística descriptiva (ADR 0030); reactivable.
+
+---
+*Lo que sigue es el borrador inicial, conservado como historial. Donde contradiga lo anterior (horizontes `90, 365, 1500`, orden de P1 a P8, N=1500 como horizonte de entrenamiento), manda lo anterior.*
+
 # Plan por fases (borrador 1: solo fases, sin detalle de tareas)
 
 Fecha: 2026-11-25. Estado: propuesto, pendiente de aprobación de Enrique.

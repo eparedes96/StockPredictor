@@ -1,0 +1,4 @@
+raw_referenced: keep            # referenciado por manifiesto de dataset o modelo registrado
+raw_unreferenced: archive_compressed_with_manifest
+regenerable: purge              # panel de features, runs antiguos
+dry_run_default: true

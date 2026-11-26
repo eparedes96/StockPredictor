@@ -1,3 +1,5 @@
+> **Histórico (2026-11-26).** Borrador inicial, superado en parte por la planificación posterior. Vigente: `CLAUDE.md`, `docs/convenciones.md`, `docs/limitaciones.md`, `docs/mlops.md` y `docs/decisiones/`. Ante un conflicto manda lo vigente.
+
 Construir StockPredictor: un pipeline de punta a punta que predice el retorno absoluto de acciones individuales a N días (N variable: 90, 365, 1500...), con datos gratuitos (APIs y scraping).
 
 Etapas del pipeline:

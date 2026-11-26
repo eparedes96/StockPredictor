@@ -1,3 +1,11 @@
-type: log_return_absolute      # regresion
-price_column: adjusted_close
+type: log_return_cross_sectional # ADR 0029: y_cs = y - mediana por fecha del universo elegible
+price_column: price_for_returns  # adj_close, o close_raw con eventos confirmados (ADR 0006)
 entry: close_t_plus_1
+return_currency: local           # ADR 0012; EUR solo como diagnostico
+gross_return: true               # el retorno neto de costes es solo diagnostico (ADR 0028)
+stored_columns: [y, y_med, y_cs]
+market_component:                # se evalua aparte, sin pretension de poder predictivo
+  method: expanding_mean_of_y_med
+  only_matured_labels: true      # label_end_date <= t
+excluded_from_cross_sectional_model: [macro, fx, index_return]   # solo un submodelo de mercado futuro, no candidato
+diagnostics: [absolute_return, excess_over_index]

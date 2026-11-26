@@ -1,0 +1,3 @@
+drift: {method: null, thresholds: null, on_unnormalized_features: true, include_dispersion: true}   # PSI frente a KS sin verificar
+refresh_schedule: {h90: quarterly, h365: semiannual}   # propuesta sin base medida; sin h1500 (ADR 0030)
+promotion: {mode: assisted, default: do_not_promote}   # propone el sistema, aprueba Enrique

@@ -1,4 +1,9 @@
 scheme: walk_forward
-window: expanding              # expanding | rolling
-embargo_days: horizon          # >= N
-purge: true
+window: expanding              # expanding | rolling (sensibilidad)
+purge: label_end_date          # max(label_end_date de train) < inicio del test - embargo (ADR 0008)
+reserved_calendar:             # ADR 0021: reserva global para todos los horizontes
+  scope: global
+  # final_test_years y embargo_sessions: ver preregistered.yaml
+  opened: false                # el test final no se ha tocado
+  access_log: experiments/test_access_log.csv
+# Las cantidades (train minimo, test minimo, paso, umbrales de viabilidad) viven en preregistered.yaml

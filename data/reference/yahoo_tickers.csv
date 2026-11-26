@@ -1,0 +1,108 @@
+company_id,yahoo_ticker,ticker_status,known_reused_ticker,source,source_ref,source_date,confidence,reviewed,notes
+es_abengoa,ABG-P.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Ticker de conocimiento previo; sin verificar.
+es_abengoa,ABG.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Ticker de conocimiento previo; sin verificar.
+es_abertis,ABE.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_acciona,ANA.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_acciona_energia,ANE.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_aceralia,ACR.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_acerinox,ACX.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_acs,ACS.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_aena,AENA.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_agbar,AGS.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_almirall,ALM.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_altadis,ALT.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_amadeus_gtd,,none,,knowledge_unverified,,2026-11-26,low,false,Sin ticker conocido; se espera que Yahoo no la tenga (deslistada antes de 2000 o absorbida).
+es_amadeus_it,AMS.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_amper,AMP.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_antena3,A3TV.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_arcelor,,none,,knowledge_unverified,,2026-11-26,low,false,Sin ticker conocido; se espera que Yahoo no la tenga (deslistada antes de 2000 o absorbida).
+es_arcelormittal,MTS.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_argentaria,,none,,knowledge_unverified,,2026-11-26,low,false,Sin ticker conocido; se espera que Yahoo no la tenga (deslistada antes de 2000 o absorbida).
+es_asland,,none,,knowledge_unverified,,2026-11-26,low,false,Sin ticker conocido; se espera que Yahoo no la tenga (deslistada antes de 2000 o absorbida).
+es_asturiana_de_zinc,,none,,knowledge_unverified,,2026-11-26,low,false,Sin ticker conocido; se espera que Yahoo no la tenga (deslistada antes de 2000 o absorbida).
+es_aumar,,none,,knowledge_unverified,,2026-11-26,low,false,Sin ticker conocido; se espera que Yahoo no la tenga (deslistada antes de 2000 o absorbida).
+es_banco_central_hispano,,none,,knowledge_unverified,,2026-11-26,low,false,Sin ticker conocido; se espera que Yahoo no la tenga (deslistada antes de 2000 o absorbida).
+es_banco_popular,POP.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_banco_sabadell,SAB.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_banesto,BTO.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_bankia,BKIA.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_bankinter,BKT.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_bbva,BBVA.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Ticker de conocimiento previo; sin verificar.
+es_bme,BME.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_caixabank,CABK.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Ticker de conocimiento previo; sin verificar.
+es_carrefour_espana,,none,,knowledge_unverified,,2026-11-26,low,false,Sin ticker conocido; se espera que Yahoo no la tenga (deslistada antes de 2000 o absorbida).
+es_cellnex,CLNX.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_cepsa,CEP.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_cie_automotive,CIE.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_cintra,CIN.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_colonial,COL.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Ticker de conocimiento previo; sin verificar.
+es_continente,,none,,knowledge_unverified,,2026-11-26,low,false,Sin ticker conocido; se espera que Yahoo no la tenga (deslistada antes de 2000 o absorbida).
+es_corporacion_financiera_alba,ALB.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_cortefiel,,none,,knowledge_unverified,,2026-11-26,low,false,Sin ticker conocido; se espera que Yahoo no la tenga (deslistada antes de 2000 o absorbida).
+es_dia,DIA.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_dragados,DRC.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_ebro_agricolas,,none,,knowledge_unverified,,2026-11-26,low,false,Sin ticker conocido; se espera que Yahoo no la tenga (deslistada antes de 2000 o absorbida).
+es_ebro_foods,EBRO.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Ticker de conocimiento previo; sin verificar.
+es_enagas,ENG.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_ence,ENC.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_endesa,ELE.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_fadesa,FAD.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_fcc,FCC.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_fecsa,,none,,knowledge_unverified,,2026-11-26,low,false,Sin ticker conocido; se espera que Yahoo no la tenga (deslistada antes de 2000 o absorbida).
+es_ferrovial,FER.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_fluidra,FDR.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_gamesa,SGRE.MC,candidate,GAM.MC,knowledge_unverified,,2026-11-26,medium,false,Ticker de conocimiento previo; sin verificar.
+es_gas_natural,NTGY.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Ticker de conocimiento previo; sin verificar.
+es_gesa,,none,,knowledge_unverified,,2026-11-26,low,false,Sin ticker conocido; se espera que Yahoo no la tenga (deslistada antes de 2000 o absorbida).
+es_grifols,GRF.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_grupo_picking_pack,,none,,knowledge_unverified,,2026-11-26,low,false,Sin ticker conocido; se espera que Yahoo no la tenga (deslistada antes de 2000 o absorbida).
+es_hidrocantabrico,,none,,knowledge_unverified,,2026-11-26,low,false,Sin ticker conocido; se espera que Yahoo no la tenga (deslistada antes de 2000 o absorbida).
+es_huarte,,none,,knowledge_unverified,,2026-11-26,low,false,Sin ticker conocido; se espera que Yahoo no la tenga (deslistada antes de 2000 o absorbida).
+es_iag,IAG.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_iberdrola,IBE.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_iberdrola_renovables,IBR.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_iberia,IBLA.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_inditex,ITX.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_indra,IDR.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_jazztel,JAZ.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_logista,LOG.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_mapfre,MAP.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_masmovil,MAS.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_melia,MEL.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_merlin,MRL.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_metrovacesa,,none,MVC.MC,knowledge_unverified,,2026-11-26,low,false,Sin ticker conocido; se espera que Yahoo no la tenga (deslistada antes de 2000 o absorbida).
+es_nh_hoteles,NHH.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_ohl,OHLA.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Ticker de conocimiento previo; sin verificar.
+es_pharmamar,PHM.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_portland_valderrivas,VDR.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_prisa,PRS.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_pryca,,none,,knowledge_unverified,,2026-11-26,low,false,Sin ticker conocido; se espera que Yahoo no la tenga (deslistada antes de 2000 o absorbida).
+es_puig,PUIG.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_puleva,,none,,knowledge_unverified,,2026-11-26,low,false,Sin ticker conocido; se espera que Yahoo no la tenga (deslistada antes de 2000 o absorbida).
+es_radiotronica,,none,,knowledge_unverified,,2026-11-26,low,false,Sin ticker conocido; se espera que Yahoo no la tenga (deslistada antes de 2000 o absorbida).
+es_redeia,RED.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Ticker de conocimiento previo; sin verificar.
+es_repsol,REP.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_rovi,ROVI.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_sacyr,SCYR.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Ticker de conocimiento previo; sin verificar.
+es_santander,SAN.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Ticker de conocimiento previo; sin verificar.
+es_sevillana,,none,,knowledge_unverified,,2026-11-26,low,false,Sin ticker conocido; se espera que Yahoo no la tenga (deslistada antes de 2000 o absorbida).
+es_sogecable,SGC.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_solaria,SLR.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_tecnicas_reunidas,TRE.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_telecinco,TL5.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_telefonica,TEF.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_telefonica_moviles,TEM.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_telepizza,TPZ.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_terra_networks,TRR.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_tpi,TPI.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_tubacex,TUB.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_unicaja,UNI.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_union_fenosa,UNF.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_unresolved_cub,,unresolved,,knowledge_unverified,,2026-11-26,low,false,Empresa sin identificar en la composición (ADR 0032); no se puede unir a precios.
+es_unresolved_enc_1995,,unresolved,,knowledge_unverified,,2026-11-26,low,false,Empresa sin identificar en la composición (ADR 0032); no se puede unir a precios.
+es_unresolved_uni_1997,,unresolved,,knowledge_unverified,,2026-11-26,low,false,Empresa sin identificar en la composición (ADR 0032); no se puede unir a precios.
+es_uralita,URA.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_vallehermoso,VAL.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_viscofan,VIS.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_zardoya_otis,ZOT.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.
+es_zeltia,ZEL.MC,candidate,,knowledge_unverified,,2026-11-26,medium,false,Último código BME + .MC; sin verificar.

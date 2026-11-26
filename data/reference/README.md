@@ -7,6 +7,7 @@
 |---|---|---|
 | `bme_code_map.csv` | Mapeo de códigos BME a `company_id` y revisión de cambios de código (un cambio de código no es una salida) | P1 T1.1, P2 P2.12 |
 | `index_membership/ibex35.csv` | Composición histórica: empresa, índice, intervalo, fechas de anuncio y efectiva. Un CSV por índice | P1, P2 8a, P8 |
+| `yahoo_tickers.csv` | Ticker de Yahoo por `company_id` (`candidate` hasta descarga real), con tickers reutilizados conocidos (ADR 0033) | P1 T1.3 |
 | `exit_events.csv` | Salidas del índice: última fecha con precio, motivo (expropiación, liquidación, absorción...) y resolución | P2 46a, P5a.2 |
 | `price_jump_review.csv` | Revisión manual de saltos candidatos a evento corporativo, empresa por empresa | P2 46a |
 | `statutory_tax_rates.csv` | Tasas legales por país y año para el ROIC (con fuente citada) | P4 25a |

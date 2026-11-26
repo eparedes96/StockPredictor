@@ -63,7 +63,15 @@ def write_immutable(path: Path, data: bytes) -> None:
         fh.flush()
         os.fsync(fh.fileno())
     try:
-        os.link(tmp, path)  # falla con FileExistsError si ya existe
+        try:
+            os.link(tmp, path)  # falla con FileExistsError si ya existe
+        except FileExistsError:
+            raise
+        except OSError:  # sistema de archivos sin enlaces duros (montajes de red)
+            with path.open("xb") as fh:
+                fh.write(data)
+                fh.flush()
+                os.fsync(fh.fileno())
     finally:
         tmp.unlink(missing_ok=True)
 

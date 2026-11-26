@@ -20,7 +20,7 @@ from stockpredictor.extraction.yahoo_tickers import check_identity, select_targe
 from stockpredictor.universe import membership as m
 
 GAP_DAYS = 7  # un hueco entre sesiones consecutivas de más de 7 días naturales se lista
-RETURN_TOL = 1e-6  # tolerancia de la regresión en retorno logarítmico diario
+RETURN_TOL = 1e-5  # ruido de redondeo de adj_close observado: hasta 1,9e-6 entre dos descargas
 
 
 def price_stats(prices: pl.DataFrame) -> pl.DataFrame:

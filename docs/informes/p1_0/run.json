@@ -1,0 +1,43 @@
+{
+  "label": "con sesgo de supervivencia (sin deslistadas)",
+  "prices_from": "2000-01-03",
+  "data_end": "2026-11-26",
+  "params": {
+    "horizons": [
+      90,
+      365
+    ],
+    "descriptive_horizons": [
+      1500
+    ],
+    "frequency": {
+      "90": "weekly",
+      "365": "monthly"
+    },
+    "descriptive_frequency": "monthly",
+    "train_years_grid": [
+      5,
+      8,
+      10
+    ],
+    "primary_train_years": 8,
+    "embargo_sessions": 5,
+    "final_test_years": 3,
+    "min_names": 10,
+    "effect": 0.05,
+    "alpha": 0.05,
+    "power": 0.8,
+    "viable_min": 10,
+    "exploratory_min": 4,
+    "n_perm": 1000,
+    "seed": 20261126
+  },
+  "commit": "7c80734868423f538d6a35ceb66be00715997422",
+  "versions": {
+    "polars": "2.2.0",
+    "numpy": "2.5.5",
+    "scipy": "1.18.1"
+  },
+  "snapshot_id": "2026-11-26",
+  "prices_sha256": "d7e2fb40aee2707573ee4b26a5f4f8b0af287a1c7847d170b808aaffa76939c7"
+}

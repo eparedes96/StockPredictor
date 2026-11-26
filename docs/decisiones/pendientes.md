@@ -17,7 +17,7 @@ Actualizado el 2026-11-26 (v3). Las cerradas están en los ADR 0004 a 0030.
 8. **Verificaciones técnicas** (una "semana de verificaciones", resultados en `docs/verificaciones.md`): `join_asof` de polars con el caso real; varianza con solape y bootstrap por bloques; HAC y Diebold-Mariano; PSI frente a KS; compatibilidad de polars con LightGBM y scikit-learn; pandera con tablas grandes; límite `start` de los calendarios; repetir la prueba de pandera y calendarios en el entorno de `uv.lock` (se probó con Python 3.13).
 9. **Antes de F2:** hora oficial del FX del BCE, impuestos sobre transacciones y costes por mercado, términos de uso por fuente. Contacto del User-Agent de la SEC (lo da Enrique; solo en `.env`).
 10. **Revisión de Enrique** de lo aceptado por el coordinador o por delegación: ADR 0005 a 0008 y 0012 a 0030. Como bloqueo antes del primer código, al menos 0019, 0021, 0024 y 0029; y revisión del análisis de potencia (0019) por una persona con experiencia en factores.
-11. **Protección de `main`** y merge del PR 1.
+11. **Protección de ramas** (`main` y `develop`): requiere ajustes en GitHub que Enrique debe pulsar; ver `CONTRIBUTING.md`. PR 1 a 3 ya fusionados en `develop`.
 12. **Horas y fechas de los go/no-go** (tras P1-0 y tras el corte vertical): las fija Enrique en el primer go/no-go (ADR 0027). Presupuesto de horas abierto.
 13. **Efecto de interés 0,05:** fijado por delegación; es el extremo alto del rango 0,02 a 0,05 citado por la revisión crítica (no verificado). Revisable antes de ver el MDE de P1-0.
 14. **Mercado Continuo:** cobertura de Bolsamanía fuera del IBEX y composición histórica (no verificado; Bolsamanía da 403 desde el cloud). Depende del MDE de P1-0.

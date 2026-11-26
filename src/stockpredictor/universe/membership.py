@@ -15,8 +15,10 @@ import datetime as dt
 from pathlib import Path
 
 import polars as pl
+import yaml
 
 REFERENCE_DIR = Path(__file__).resolve().parents[3] / "data" / "reference"
+UNIVERSE_CONFIG = Path(__file__).resolve().parents[3] / "configs" / "universe.yaml"
 CONFIDENCE_ORDER = {"low": 0, "medium": 1, "high": 2}
 EVENT_COLUMNS = ["revision_id", "effective_date", "event_type", "bme_code", "confidence"]
 MAP_COLUMNS = ["bme_code", "company_id", "valid_from", "valid_to", "confidence"]
@@ -118,18 +120,28 @@ def _apply_revisions(resolved: pl.DataFrame, as_of: dt.date | None) -> set[str]:
     return members
 
 
+def usable_from(index_id: str = "ibex35", config_path: Path = UNIVERSE_CONFIG) -> dt.date:
+    """Primera fecha desde la que se usa la composición (``configs/universe.yaml``)."""
+    cfg = yaml.safe_load(config_path.read_text(encoding="utf8"))
+    value = cfg["index_membership"][index_id]["usable_from"]
+    return value if isinstance(value, dt.date) else dt.date.fromisoformat(str(value))
+
+
 def members_at(
     date: dt.date,
     index_id: str = "ibex35",
     *,
     events: pl.DataFrame | None = None,
     code_map: pl.DataFrame | None = None,
+    usable_only: bool = False,
 ) -> list[str]:
     """``company_id`` de los miembros de ``index_id`` en ``date`` (orden alfabético).
 
     Solo usa eventos con ``effective_date <= date``. Antes de la fecha base del índice devuelve
-    una lista vacía.
+    una lista vacía. Con ``usable_only=True`` falla si ``date`` es anterior a ``usable_from``.
     """
+    if usable_only and date < usable_from(index_id):
+        raise ValueError(f"{date} es anterior a usable_from ({usable_from(index_id)})")
     ev = load_events(index_id) if events is None else events
     cm = load_code_map() if code_map is None else code_map
     # Se filtra antes de resolver códigos: ningún evento posterior a `date` puede influir, ni

@@ -7,3 +7,11 @@ filters:
   min_traded_value_20d_local: null  # moneda local por mercado (P6 34a); por definir antes de reportar financieras
 start_date: null                    # por mercado, en configs/indices/
 # Umbrales de cobertura del indice: ver preregistered.yaml (index_coverage)
+# Composición histórica (ADR 0032). usable_from: primera fecha desde la que se usa la composición;
+# antes es reconstrucción retroactiva de BME, sin contraste y con 8 miembros sin identificar
+# (los precios de Yahoo empiezan hacia 1993). fully_resolved_from: primera fecha sin ningún miembro
+# sin identificar (se comprueba en tests/unit/test_membership.py); entre ambas fechas hay hasta 2.
+index_membership:
+  ibex35:
+    usable_from: 1993-01-04
+    fully_resolved_from: 1997-10-01

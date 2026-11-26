@@ -164,3 +164,31 @@ def test_committed_intervals_match_replay(events, code_map):
             (pl.col("valid_from") <= d) & (pl.col("valid_to").is_null() | (pl.col("valid_to") > d))
         )["company_id"].to_list()
         assert sorted(from_iv) == at(d, events, code_map)
+
+
+def test_usable_from_config_matches_data(events, code_map):
+    start = m.usable_from("ibex35")
+    assert start >= D(1993, 1, 1)
+    with pytest.raises(ValueError):
+        m.members_at(D(1992, 12, 31), events=events, code_map=code_map, usable_only=True)
+    assert len(m.members_at(start, events=events, code_map=code_map, usable_only=True)) == 35
+    # fully_resolved_from: primera fecha sin ningún miembro es_unresolved_*
+    import yaml
+
+    cfg = yaml.safe_load((m.UNIVERSE_CONFIG).read_text(encoding="utf8"))
+    resolved_from = cfg["index_membership"]["ibex35"]["fully_resolved_from"]
+    resolved = m.resolve_company_ids(events, code_map)
+    dates = sorted(set(events["effective_date"].to_list()))
+    clean = [
+        d
+        for d in dates
+        if d >= start
+        and not any(c.startswith("es_unresolved_") for c in m._apply_revisions(resolved, d))
+    ]
+    assert clean and min(clean) == resolved_from
+    # a partir de esa fecha no vuelve a haber miembros sin identificar
+    assert all(
+        not any(c.startswith("es_unresolved_") for c in m._apply_revisions(resolved, d))
+        for d in dates
+        if d >= resolved_from
+    )

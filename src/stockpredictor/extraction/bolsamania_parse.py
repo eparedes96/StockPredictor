@@ -128,8 +128,8 @@ def parse_history(html: str) -> ParsedHistory:
     if header != HISTORY_COLUMNS:
         raise BolsamaniaParseError(f"cabecera inesperada: {header}")
     body = parser.rows[1:]
-    if len(body) == 1 and body[0][0].lower().startswith("no se han encontrado"):
-        return ParsedHistory(empty, "empty", 0)
+    if not body or (len(body) == 1 and body[0][0].lower().startswith("no se han encontrado")):
+        return ParsedHistory(empty, "empty", 0)  # sin filas: tabla vacía o aviso de la web
     idx = {name: header.index(name) for name in ("Fecha", "Precio", "Máximo", "Mínimo", "Apertura")}
     out: list[dict[str, object]] = []
     for row in body:

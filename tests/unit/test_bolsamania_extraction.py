@@ -87,6 +87,14 @@ def test_parse_estados_de_pagina():
     assert parse_history(NO_HISTORY.decode()).page_status == "no_history"
 
 
+def test_tabla_con_solo_cabecera_es_empty_y_no_ok():
+    # Observado en la ejecución real: tramos sin cotización (antes de la salida a bolsa) devuelven
+    # la tabla con cabecera y sin filas; no deben contarse como ``ok`` con first_date "None".
+    head = OK.decode().split("<tbody>")[0]
+    html = head + "<tbody></tbody></table></body></html>"
+    assert parse_history(html).page_status == "empty"
+
+
 def test_parse_pagina_anomala_lanza():
     with pytest.raises(BolsamaniaParseError):
         parse_history("<html><body><h1>Acceso denegado</h1></body></html>")

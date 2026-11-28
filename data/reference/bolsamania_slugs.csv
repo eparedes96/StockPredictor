@@ -1,0 +1,42 @@
+company_id,bolsamania_slug,purpose,slug_status,source,source_date,confidence,reviewed,notes
+es_abengoa,,gap_fill,none,bolsamania_probe,2026-11-28,medium,false,"ABENGOA, ABENGOA-B, ABENGOA-A y variantes no existen; ABENGOA-SA existe pero responde sin resultados en 2012 y 2015"
+es_abertis,ABERTIS,gap_fill,candidate,bolsamania_probe,2026-11-28,medium,false,66 filas en 2018-02-01..2018-05-08
+es_aceralia,,gap_fill,none,bolsamania_probe,2026-11-28,medium,false,Probadas variantes del nombre sin éxito (Página no encontrada) o ventana anterior al inicio de la serie (2006-11-30)
+es_agbar,AGUAS-DE-BARCELONA,gap_fill,candidate,bolsamania_probe,2026-11-28,medium,false,61 filas en 2007-11-01..2008-01-31
+es_altadis,,gap_fill,none,bolsamania_probe,2026-11-28,medium,false,Probadas variantes del nombre sin éxito (Página no encontrada) o ventana anterior al inicio de la serie (2006-11-30)
+es_antena3,ANTENA-3-DE-TELEVISION,gap_fill,candidate,bolsamania_probe,2026-11-28,medium,false,12 filas entre 2007-10-04 y 2007-12-19 (pocas): revisar huecos tras la descarga
+es_banco_popular,BANCO-POPULAR,gap_fill,candidate,bolsamania_probe,2026-11-28,medium,false,62 filas en 2017-03-08..2017-06-06; el slug POPULAR es una acción de EE. UU. en dólares
+es_banesto,BANESTO,gap_fill,candidate,bolsamania_probe,2026-11-28,medium,false,64 filas en 2010-10-01..2010-12-31
+es_bankia,BANKIA,gap_fill,candidate,bolsamania_probe,2026-11-28,medium,false,65 filas en 2012-01-02..2012-03-30 y 62 en 2020-12-29..2021-03-26
+es_bme,,gap_fill,none,bolsamania_probe,2026-11-28,medium,false,BOLSAS-Y-MERCADOS tiene ficha sin sección de históricos; BOLSAS-Y-MERCADOS-ESPANOLES-SA responde sin resultados en 2015; BME y otras variantes no existen
+es_cepsa,,gap_fill,none,bolsamania_probe,2026-11-28,medium,false,Probadas variantes del nombre sin éxito (Página no encontrada) o ventana anterior al inicio de la serie (2006-11-30)
+es_cintra,,gap_fill,none,bolsamania_probe,2026-11-28,medium,false,Probadas variantes del nombre sin éxito (Página no encontrada) o ventana anterior al inicio de la serie (2006-11-30)
+es_corporacion_financiera_alba,,gap_fill,none,bolsamania_probe,2026-11-28,medium,false,Probadas variantes del nombre sin éxito (Página no encontrada) o ventana anterior al inicio de la serie (2006-11-30)
+es_dragados,,gap_fill,none,bolsamania_probe,2026-11-28,medium,false,Probadas variantes del nombre sin éxito (Página no encontrada) o ventana anterior al inicio de la serie (2006-11-30)
+es_fadesa,,gap_fill,none,bolsamania_probe,2026-11-28,medium,false,Probadas variantes del nombre sin éxito (Página no encontrada) o ventana anterior al inicio de la serie (2006-11-30)
+es_gamesa,,gap_fill,none,bolsamania_probe,2026-11-28,medium,false,GAMESA es la ficha de Siemens Gamesa sin sección de históricos; SIEMENS-GAMESA no existe
+es_iberdrola_renovables,IBERDROLA-RENOVABLES,gap_fill,candidate,bolsamania_probe,2026-11-28,medium,false,83 filas en 2011-03-14..2011-07-08 (tope de filas alcanzado)
+es_iberia,IBERIA-LINEAS-AEREAS-DE-ESPANA,gap_fill,candidate,bolsamania_probe,2026-11-28,medium,false,61 filas en 2008-01-02..2008-03-31
+es_jazztel,JAZZTEL,gap_fill,candidate,bolsamania_probe,2026-11-28,medium,false,79 filas en 2015-03-02..2015-06-23
+es_masmovil,MASMOVIL-IBERCOM,gap_fill,candidate,bolsamania_probe,2026-11-28,medium,false,66 filas en 2020-06-15..2020-09-14; MASMOVIL no existe
+es_nh_hoteles,,gap_fill,none,bolsamania_probe,2026-11-28,medium,false,NH-HOTEL-GROUP y NH-HOTELES existen pero responden sin resultados en 2007 y 2012
+es_portland_valderrivas,,gap_fill,none,bolsamania_probe,2026-11-28,medium,false,Probadas variantes del nombre sin éxito (Página no encontrada) o ventana anterior al inicio de la serie (2006-11-30)
+es_sogecable,,gap_fill,none,bolsamania_probe,2026-11-28,medium,false,Probadas variantes del nombre sin éxito (Página no encontrada) o ventana anterior al inicio de la serie (2006-11-30)
+es_telecinco,MEDIASET-ESPANA,gap_fill,candidate,bolsamania_probe,2026-11-28,medium,false,63 filas en 2020-03-23..2020-06-22; TELECINCO no existe
+es_telefonica_moviles,,gap_fill,none,bolsamania_probe,2026-11-28,medium,false,Probadas variantes del nombre sin éxito (Página no encontrada) o ventana anterior al inicio de la serie (2006-11-30)
+es_telepizza,,gap_fill,none,bolsamania_probe,2026-11-28,medium,false,Probadas variantes del nombre sin éxito (Página no encontrada) o ventana anterior al inicio de la serie (2006-11-30)
+es_terra_networks,,gap_fill,none,bolsamania_probe,2026-11-28,medium,false,Probadas variantes del nombre sin éxito (Página no encontrada) o ventana anterior al inicio de la serie (2006-11-30)
+es_tpi,,gap_fill,none,bolsamania_probe,2026-11-28,medium,false,Probadas variantes del nombre sin éxito (Página no encontrada) o ventana anterior al inicio de la serie (2006-11-30)
+es_union_fenosa,,gap_fill,none,bolsamania_probe,2026-11-28,medium,false,Probadas variantes del nombre sin éxito (Página no encontrada) o ventana anterior al inicio de la serie (2006-11-30)
+es_uralita,,gap_fill,none,bolsamania_probe,2026-11-28,medium,false,Probadas variantes del nombre sin éxito (Página no encontrada) o ventana anterior al inicio de la serie (2006-11-30)
+es_vallehermoso,,gap_fill,none,bolsamania_probe,2026-11-28,medium,false,Probadas variantes del nombre sin éxito (Página no encontrada) o ventana anterior al inicio de la serie (2006-11-30)
+es_zardoya_otis,,gap_fill,none,bolsamania_probe,2026-11-28,medium,false,Probadas variantes del nombre sin éxito (Página no encontrada) o ventana anterior al inicio de la serie (2006-11-30)
+es_zeltia,,gap_fill,none,bolsamania_probe,2026-11-28,medium,false,Probadas variantes del nombre sin éxito (Página no encontrada) o ventana anterior al inicio de la serie (2006-11-30)
+es_santander,BANCO-SANTANDER,comparison,candidate,bolsamania_probe,2026-11-28,medium,false,61-62 filas en 2008-01-02..2008-03-31
+es_banco_sabadell,BANCO-SABADELL,comparison,candidate,bolsamania_probe,2026-11-28,medium,false,61-62 filas en 2008-01-02..2008-03-31
+es_bankinter,BANKINTER,comparison,candidate,bolsamania_probe,2026-11-28,medium,false,61-62 filas en 2008-01-02..2008-03-31
+es_bbva,BBVA,comparison,candidate,bolsamania_probe,2026-11-28,medium,false,61-62 filas en 2008-01-02..2008-03-31
+es_telefonica,TELEFONICA,comparison,candidate,bolsamania_probe,2026-11-28,medium,false,61-62 filas en 2008-01-02..2008-03-31
+es_repsol,REPSOL,comparison,candidate,bolsamania_probe,2026-11-28,medium,false,61-62 filas en 2008-01-02..2008-03-31
+es_iberdrola,IBERDROLA,comparison,candidate,bolsamania_probe,2026-11-28,medium,false,61-62 filas en 2008-01-02..2008-03-31
+es_sacyr,SACYR,comparison,candidate,bolsamania_probe,2026-11-28,medium,false,61-62 filas en 2008-01-02..2008-03-31
